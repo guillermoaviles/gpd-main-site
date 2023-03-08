@@ -8,7 +8,7 @@ function Home() {
         <>
             <Layout>
                 <section className="xl:bg-contain bg-top bg-no-repeat bg-gray-light -mt-24 pt-24" style={{ backgroundImage: "url('assets/imgs/backgrounds/gpd-hero-main.png')" }}>
-                    <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
+                    <div className=" mt-16 md:mt-18 mb-8 mx-auto">
                         <img src="/assets/imgs/elements/pattern.png" alt="Monst" />
                         {/* <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
                             <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/dashboard.png" alt="Monst" />
