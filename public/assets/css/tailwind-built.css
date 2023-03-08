@@ -1243,6 +1243,10 @@ video {
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(226, 232, 240, var(--tw-bg-opacity)) !important;
 }
+.bg-gray-light{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(244, 244, 242, var(--tw-bg-opacity)) !important;
+}
 .bg-cover{
 	background-size: cover !important;
 }
