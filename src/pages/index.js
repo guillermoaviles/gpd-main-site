@@ -18,16 +18,17 @@ function Home() {
                         <div className="flex flex-wrap justify-between pt-8 pb-16">
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
                                 <div className="flex justify-center items-center bg-blueGray-50 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
-                                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    {/* <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                                    </svg>
+                                    </svg> */}
+                                    <img className="h-12 w-auto wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/handshake-skin-4-svgrepo-com.svg" alt="Monst" />
                                 </div>
                                 <div className="sm:py-2 ml-2 sm:ml-6">
                                     <span className="sm:text-2xl font-bold font-heading">+ </span>
                                     <span className="sm:text-2xl font-bold font-heading count">
-                                        <CounterUp count={950} time={3} />
+                                        <CounterUp count={28} time={3} />
                                     </span>
-                                    <p className="text-xs sm:text-base text-blueGray-400">Annual Partner</p>
+                                    <p className="text-xs sm:text-base text-blueGray-400">Años de servicio</p>
                                 </div>
                             </div>
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
@@ -78,64 +79,21 @@ function Home() {
                 </section>
 
                 <section className=" overflow-x-hidden" id="key-features">
-                        <div className="flex flex-wrap lg:flex-nowrap">
-                                {/* <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
-                            <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/gpd-hero.png" alt="Monst" />
-                        </div> */}
-                                {/* <div className="lg:py-6 lg:pr-77 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    <div className="mb-4">
-                                        <span className="text-xs py-1 px-3 text-blue-500 font-semibold bg-blue-50 rounded-xl wow animate__animated animate__fadeInDown" data-wow-delay=".9s">
-                                            Why choose us
-                                        </span>
-                                        <h2 className="text-4xl mt-5 font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                            Key Features
-                                        </h2>
-                                    </div>
-                                    <div className="flex items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                        <div className="w-8 mr-5 text-blue-500">
-                                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-                                            </svg>
-                                        </div>
-                                        <div>
-                                            <h3 className="mb-2 text-xl font-semibold font-heading">Expand Your Reach</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
-                                        </div>
-                                    </div>
-                                    <div className="flex items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".7s">
-                                        <div className="w-8 mr-5 text-blue-500">
-                                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path>
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path>
-                                            </svg>
-                                        </div>
-                                        <div>
-                                            <h3 className="mb-2 text-xl font-semibold font-heading">Annualized Growth</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
-                                        </div>
-                                    </div>
-                                    <div className="flex items-start py-4 wow animate__animated animate__fadeIn" data-wow-delay=".9s">
-                                        <div className="w-8 mr-5 text-blue-500">
-                                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                                            </svg>
-                                        </div>
-                                        <div>
-                                            <h3 className="mb-2 text-xl font-semibold font-heading">Book Your Providers</h3>
-                                            <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
-                                        </div>
-                                    </div>
-                                </div> */}
-
-                            
-                                <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                    <img className="object-fill wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/gpd-hero-2.png" alt="Monst" />
-                                </div>
-                            
+                    <div className="flex flex-wrap lg:flex-nowrap">
+                        <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                            <img className="object-fill wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/gpd-hero-2.png" alt="Monst" />
                         </div>
+                    </div>
+                </section>
+                <section className=" overflow-x-hidden" id="key-features">
+                    <div className="flex flex-wrap lg:flex-nowrap">
+                        <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+                            <img className="object-fill wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/gpd-hero-3.png" alt="Monst" />
+                        </div>
+                    </div>
                 </section>
 
-                <section className="py-20 bg-blueGray-50" id="how-we-work">
+                {/* <section className="py-20 bg-blueGray-50" id="how-we-work">
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap items-center justify-between max-w-2xl lg:max-w-full mb-12">
                             <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
@@ -348,7 +306,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="py-20 bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/elements/blob.svg')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="relative py-20 px-4 lg:p-20">
