@@ -8,35 +8,11 @@ function Home() {
         <>
             <Layout>
                 <section className="xl:bg-contain bg-top bg-no-repeat -mt-24 pt-24" style={{ backgroundImage: "url('assets/imgs/backgrounds/intersect.svg')" }}>
-                    <div className="container px-4 mx-auto">
-                        <div className="pt-12 text-center">
-                            <div className="max-w-2xl mx-auto mb-8">
-                                <h2 className="text-3xl lg:text-5xl lg:leading-normal mb-4 font-bold font-heading wow animate__animated animate__fadeIn">
-                                    Committed to People <br />
-                                    Committed <span className="text-blue-500">to the Future</span>
-                                </h2>
-                                <div className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn d-inline">
-                                    We are <strong className="text-blue-500">Monst</strong>, a Creative Design{" "}
-                                    <div className="typewrite d-inline text-brand">
-                                        <TextEffect text1="Web Agency" text2="Social Marketing" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <a className="btn-primary py-4 px-8 mr-2 wow animate__animated animate__fadeIn hover-up-2" href="#key-features">
-                                    Key Features
-                                </a>
-                                <a className="btn-white wow animate__animated animate__fadeIn hover-up-2" data-wow-delay=".3s" href="#how-we-work">
-                                    How We Work?
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                     <div className="relative max-w-6xl mt-16 md:mt-8 mb-8 mx-auto">
                         <img src="/assets/imgs/elements/pattern.png" alt="Monst" />
-                        <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
+                        {/* <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
                             <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/dashboard.png" alt="Monst" />
-                        </div>
+                        </div> */}
                     </div>
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap justify-between pt-8 pb-16">
@@ -101,11 +77,12 @@ function Home() {
                     </div>
                 </section>
 
-                <section className="pt-8 pb-12 md:py-16 lg:py-16 overflow-x-hidden" id="key-features">
-                    <div className="container px-4 mx-auto">
+                <section className=" overflow-x-hidden" id="key-features">
                         <div className="flex flex-wrap lg:flex-nowrap">
-                            <div className="w-full lg:w-1/2">
-                                <div className="lg:py-6 lg:pr-77 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                {/* <div className="absolute" style={{ top: "9%", left: "14%", width: "72%", height: "66%" }}>
+                            <img className="jump rounded wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/gpd-hero.png" alt="Monst" />
+                        </div> */}
+                                {/* <div className="lg:py-6 lg:pr-77 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                     <div className="mb-4">
                                         <span className="text-xs py-1 px-3 text-blue-500 font-semibold bg-blue-50 rounded-xl wow animate__animated animate__fadeInDown" data-wow-delay=".9s">
                                             Why choose us
@@ -148,17 +125,14 @@ function Home() {
                                             <p className="text-blueGray-400 leading-loose">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis expedita animi.</p>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="relative w-full lg:w-1/2 my-12 lg:my-0">
+                                </div> */}
+
+                            
                                 <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                    <img className="jump relative mx-auto rounded-xl w-full z-10" src="/assets/imgs/placeholders/img-1.png" alt="Monst" />
-                                    <img className="absolute top-0 left-0 w-40 -ml-12 -mt-12" src="/assets/imgs/elements/blob-tear.svg" alt="Monst" />
-                                    <img className="absolute bottom-0 right-0 w-40 -mr-12 -mb-12" src="/assets/imgs/elements/blob-tear.svg" alt="Monst" />
+                                    <img className="object-fill wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/gpd-hero-2.png" alt="Monst" />
                                 </div>
-                            </div>
+                            
                         </div>
-                    </div>
                 </section>
 
                 <section className="py-20 bg-blueGray-50" id="how-we-work">
