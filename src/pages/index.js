@@ -307,17 +307,16 @@ function Home() {
                         </div>
                     </div>
                 </section> */}
-                <section className="py-20 bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/elements/blob.svg')" }}>
+                <section className="py-20 bg-top bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/elements/puerto-rico.svg')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="relative py-20 px-4 lg:p-20">
                             <div className="max-w-lg mx-auto text-center">
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
-                                    <span>Subscribe now to</span>
-                                    <span className="text-blue-500"> Our Newsletter </span>
-                                    <span>and get the Coupon code.</span>
+                                    <span className="text-blue-500"> Contáctenos </span>
                                 </h2>
                                 <p className="mb-8 text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    All your information is completely confidential
+                                    Si tienes preguntas, necesita más información o necesita producir algo, llámenos o envíenos un correo
+                                    electrónico. También puede visitar nuestras facilidades personalmente, ¡nos encantaría recibirte!
                                 </p>
                                 <div className="p-4 bg-white rounded-lg flex flex-wrap max-w-md mx-auto wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                     <div className="flex w-full md:w-2/3 px-3 mb-3 md:mb-0 md:mr-6 bg-blueGray-100 rounded">
