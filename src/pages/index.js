@@ -78,26 +78,29 @@ function Home() {
                         {/* <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                             <img className="object-fill wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/gpd-hero-2.png" alt="Monst" />
                         </div> */}
-                        <div className="w-6/12 mx-auto text-center">
-                            <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
-                                <span className="text-blue-500"> Nunca subestimes el poder de una buena impresión </span>
-                            </h2>
-                            <p className="mb-8 text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                Aunque vivimos vidas aldamente digitalizadas, el material impreso sigue siendo uno de los medios
-                                principales para vender servicios y productos. Y gracias a su poder de crear primeras impresiones
-                                impecablesy generar nuevas oportunidades de negocio, las piezas de mercadeo y publicidad impresas
-                                continuarán siendo una poderosa herramienta para las ventas.
-                            </p>
+                        <div className="w-6/12 my-auto mx-auto">
+                            <div className="w-8/12 m-auto text-center">
+                                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
+                                    <span className="text-blue-500"> Nunca subestimes el poder de una buena impresión </span>
+                                </h2>
+                                <p className="mb-8 text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                    Aunque vivimos vidas aldamente digitalizadas, el material impreso sigue siendo uno de los medios
+                                    principales para vender servicios y productos. Y gracias a su poder de crear primeras impresiones
+                                    impecablesy generar nuevas oportunidades de negocio, las piezas de mercadeo y publicidad impresas
+                                    continuarán siendo una poderosa herramienta para las ventas.
+                                </p>
+                            </div>
+
                         </div>
-                        <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                            <img className="object-fill wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/guillotina.png" alt="Monst" />
+                        <div className="w-6/12 wow animate__animated animate__fadeIn pr-20 rounded-3xl" data-wow-delay=".5s">
+                            <img className="wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/guillotina.png" alt="Monst" />
                         </div>
                     </div>
                 </section>
                 <section className=" overflow-x-hidden" id="key-features">
                     <div className="flex flex-wrap lg:flex-nowrap">
                         <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                            <img className="object-fill wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/gpd-hero-3.png" alt="Monst" />
+                            <img className=" wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/gpd-hero-3.png" alt="Monst" />
                         </div>
                     </div>
                 </section>
