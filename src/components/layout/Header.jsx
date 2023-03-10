@@ -169,73 +169,73 @@ const Header = ({handleHidden}) => {
             <header className="bg-transparent sticky-bar mt-4">
                 <div className="container bg-transparent">
                     <nav className="bg-transparent flex justify-end items-center py-3">
-                        <ul className="hidden bg-gray-light rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-8 px-6">
+                        <ul className="hidden bg-gpd-blue rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-8 px-6">
                             <li className="group relative pb-4 pt-4 ">
                                 <Link href="/" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
+                                    <a className="text-sm font-semibold text-white hover:text-blueGray-500">
                                         Inicio
                                     </a>
                                 </Link>
                             </li>
                             <li className="pt-4 pb-4">
                                 <Link href="/about" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
+                                    <a className="text-sm font-semibold text-white hover:text-blueGray-500">
                                         Sobre Nosotros
                                     </a>
                                 </Link>
                             </li>
                             <li className="pt-4 pb-4">
                                 <Link href="/services" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
+                                    <a className="text-sm font-semibold text-white hover:text-blueGray-500">
                                         Servicios
                                     </a>
                                 </Link>
                             </li>
                             <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="#" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
+                                    <a className="text-sm font-semibold text-white hover:text-blueGray-500">
                                         Compañía
                                     </a>
                                 </Link>
                                 <ul className="drop-down-menu min-w-200">
                                     <li>
                                         <Link href="/portfolio" legacyBehavior>
-                                            <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
+                                            <a className="menu-sub-item text-sm text-white hover:text-blueGray-500">
                                                 Portfolio
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/team" legacyBehavior>
-                                            <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
+                                            <a className="menu-sub-item text-sm text-white hover:text-blueGray-500">
                                                 Team
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/testimonials" legacyBehavior>
-                                            <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
+                                            <a className="menu-sub-item text-sm text-white hover:text-blueGray-500">
                                                 Testimonials
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/pricing" legacyBehavior>
-                                            <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
+                                            <a className="menu-sub-item text-sm text-white hover:text-blueGray-500">
                                                 Pricing
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/faqs" legacyBehavior>
-                                            <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
+                                            <a className="menu-sub-item text-sm text-white hover:text-blueGray-500">
                                                 Faqs
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/404" legacyBehavior>
-                                            <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
+                                            <a className="menu-sub-item text-sm text-white hover:text-blueGray-500">
                                                 404
                                             </a>
                                         </Link>
@@ -244,7 +244,7 @@ const Header = ({handleHidden}) => {
                             </li>
                             <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="#" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
+                                    <a className="text-sm font-semibold text-white hover:text-blueGray-500">
                                         Redes
                                     </a>
                                 </Link>
@@ -281,7 +281,7 @@ const Header = ({handleHidden}) => {
                             </li>
                             <li className="pt-4 pb-4">
                                 <Link href="/contact" legacyBehavior>
-                                    <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
+                                    <a className="text-sm font-semibold text-white hover:text-blueGray-500">
                                         Contáctanos
                                     </a>
                                 </Link>
