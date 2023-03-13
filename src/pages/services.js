@@ -1,12 +1,16 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
-import CounterUp from "../components/elements/Counterup"
+import CounterUp from "../components/elements/Counterup";
+import Model from "../components/model/Model"
 
 const Services = () => {
     return (
         <>
             <Layout>
                 <section className="-mt-24 pt-40 pb-12 bg-blueGray-100">
+                    <div>
+                        {/* <Model /> */}
+                    </div>
                     <div className="container">
                         <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">Our Services</h1>
                         <ul className="flex text-gray-500 text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">

@@ -8,9 +8,12 @@ function Home() {
         <>
             <Layout>
                 <section className="bg-gray-light w-full bg-cover bg-top -mt-24">
-                    <img className="w-full" src="/gpd-hero-main.png" alt="Monst" />
+                    <img className="w-full" src="/gpd-hero-main-new.png" alt="Monst" />
+                    
+                </section>
+                <section className="bg-gray-light h-[90vh]" id="key-features">
                     <div className="container px-4 mx-auto">
-                        <div className="flex flex-wrap justify-between pt-8 pb-16">
+                        <div className="flex flex-wrap justify-between ">
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
                                 <div className="flex justify-center items-center bg-blueGray-400 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
                                     {/* <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -71,10 +74,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                </section>
-
-                <section className="bg-gray-light overflow-x-hidden" id="key-features">
-                    <div className="flex flex-wrap lg:flex-nowrap">
+                    <div className="flex flex-wrap h-[70vh] pt-20 lg:flex-nowrap">
                         <div className="w-6/12 my-auto mx-auto">
                             <div className="w-8/12 m-auto text-center">
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
@@ -89,11 +89,10 @@ function Home() {
                             </div>
 
                         </div>
-                        <div className="w-6/12 wow animate__animated animate__fadeIn rounded-3xl" data-wow-delay=".5s">
-                            <div className="pl-10">
-                               <img className="wow animate__animated animate__fadeIn object-cover h-96 w-96" src="/assets/imgs/placeholders/guillotina.png" alt="Monst" /> 
+                        <div className=" w-6/12 m-auto wow animate__animated animate__fadeIn rounded-3xl" data-wow-delay=".5s">
+                            <div className=" w-8/12 mx-auto">
+                               <img className="transition ease-in-out hover:scale-105 rounded-tl-3xl rounded-br-3xl wow animate__animated animate__fadeIn object-cover w-full" src="/assets/imgs/placeholders/guillotina.png" alt="Guillotina" /> 
                             </div>
-                            
                         </div>
                     </div>
                 </section>
