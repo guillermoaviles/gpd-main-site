@@ -1,15 +1,22 @@
 import CounterUp from "../components/elements/Counterup"
 import TextEffect from "../components/elements/TextEffect"
-import Layout from "../components/layout/Layout"
-import Slider1 from "../components/slider/Slider1"
+import Layout from "../components/layout/Layout";
+import Slider1 from "../components/slider/Slider1";
+// import { useState, useEffect } from "react";
 
 function Home() {
+
+    // useEffect(() => {
+    //     var value = document.getElementById("count").innerHTML;
+    //     console.log(value);
+    // })
+
     return (
         <>
             <Layout>
                 <section className="bg-gray-light w-full bg-cover bg-top -mt-24">
                     <img className="w-full" src="/gpd-hero-main-new.png" alt="Monst" />
-                    
+
                 </section>
                 <section className="bg-gray-light h-[90vh]" id="key-features">
                     <div className="container px-4 mx-auto">
@@ -31,78 +38,69 @@ function Home() {
                             </div>
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
                                 <div className="flex justify-center items-center bg-blueGray-400 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
-                                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path>
-                                    </svg>
+                                    <img className="h-12 w-auto wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/map-vector.svg" alt="Map" />
                                 </div>
                                 <div className="sm:py-2 ml-2 sm:ml-6">
                                     <span className="sm:text-2xl font-bold font-heading">+ </span>
-                                    <span className="sm:text-2xl font-bold font-heading count">
-                                        <CounterUp count={58} time={3} />
+                                    <span id="count" className="sm:text-2xl font-bold font-heading count">
+                                        <CounterUp count={12} time={3} />
                                     </span>
-                                    <span className="sm:text-2xl font-bold font-heading"> k </span>
-                                    <p className="text-xs sm:text-base text-blueGray-400">Completed Projects</p>
+                                    <p className="text-xs sm:text-base text-blueGray-400">Países Servidos</p>
                                 </div>
                             </div>
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".6s">
                                 <div className="flex justify-center items-center bg-blueGray-400 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
-                                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                                    </svg>
+                                <img className="h-12 w-auto wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/customer.svg" alt="Happy Customer" />
                                 </div>
                                 <div className="sm:py-2 ml-2 sm:ml-6">
-                                    <span className="sm:text-2xl font-bold font-heading">+ </span>
-                                    <span className="sm:text-2xl font-bold font-heading count">
-                                        <CounterUp count={500} time={3} />
-                                    </span>
-                                    <p className="text-xs sm:text-base text-blueGray-400">Happy Customers</p>
-                                </div>
-                            </div>
-                            <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".8s">
-                                <div className="flex justify-center items-center bg-blueGray-400 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
-                                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-                                    </svg>
-                                </div>
-                                <div className="sm:py-2 ml-2 sm:ml-6">
-                                    <span className="sm:text-2xl font-bold font-heading">+ </span>
-                                    <span className="sm:text-2xl font-bold font-heading count">
-                                        <CounterUp count={300} time={3} />
-                                    </span>
-                                    <p className="text-xs sm:text-base text-blueGray-400">Research Work</p>
+                                    <span className="sm:text-2xl font-bold font-heading">Miles</span>
+                                    <p className="text-xs sm:text-base text-blueGray-400">Clientes Satisfechos</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="flex flex-wrap h-[70vh] pt-20 lg:flex-nowrap">
                         <div className="w-6/12 my-auto mx-auto">
-                            <div className="w-8/12 m-auto text-center">
+                            <div className="w-8/12 m-auto text-left">
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
-                                    <span className="text-blue-500"> Nunca subestimes el poder de una buena impresión </span>
+                                    <span className="text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red"> Nunca subestimes el poder de una buena impresión </span>
                                 </h2>
-                                <p className="mb-8 text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                <p className="mb-8 mt-12 w-10/12 text-2xl text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                     Aunque vivimos vidas aldamente digitalizadas, el material impreso sigue siendo uno de los medios
                                     principales para vender servicios y productos. Y gracias a su poder de crear primeras impresiones
                                     impecablesy generar nuevas oportunidades de negocio, las piezas de mercadeo y publicidad impresas
                                     continuarán siendo una poderosa herramienta para las ventas.
                                 </p>
                             </div>
-
                         </div>
                         <div className=" w-6/12 m-auto wow animate__animated animate__fadeIn rounded-3xl" data-wow-delay=".5s">
                             <div className=" w-8/12 mx-auto">
-                               <img className="transition ease-in-out hover:scale-105 rounded-tl-3xl rounded-br-3xl wow animate__animated animate__fadeIn object-cover w-full" src="/assets/imgs/placeholders/guillotina.png" alt="Guillotina" /> 
+                                <img className="transition ease-in-out hover:scale-105 rounded-tl-3xl rounded-br-3xl wow animate__animated animate__fadeIn object-cover" src="/assets/imgs/placeholders/guillotina.png" alt="Guillotina" />
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className=" overflow-x-hidden" id="key-features">
-                    <div className="flex flex-wrap lg:flex-nowrap">
-                        <div className="wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                            <img className=" wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/gpd-hero-3.png" alt="Monst" />
+                <section className="bg-gray-light h-[80vh] " id="key-features">
+                    <div className="flex flex-wrap h-[70vh] lg:flex-nowrap">
+                        <div className=" w-6/12 m-auto wow animate__animated animate__fadeIn rounded-3xl" data-wow-delay=".5s">
+                            <div className=" w-8/12 mx-auto">
+                                <img className="transition ease-in-out hover:scale-105 rounded-tl-3xl rounded-br-3xl wow animate__animated animate__fadeIn object-cover" src="/assets/imgs/placeholders/triangle-collage.png" alt="Triangle Collage" />
+                            </div>
+                        </div>
+                        <div className="w-6/12 my-auto mx-auto">
+                            <div className="w-8/12 m-auto text-center">
+                                <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
+                                    <span className="text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red"> Misión </span>
+                                </h2>
+                                <p className="mb-8 text-2xl text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                    <strong>¿Qué es importante para nosotros?</strong> Usted. Porque estamos conscientes de cómo nuestros servicios tienen un impacto en el crecimiento de su negocio. <br /><br />Nuestra misión es crear valor para todos nuestros clientes, resaltando sus fortalezas a través de cada material colateral, promocional o de exhibición que creamos para ellos.
+
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
+
 
                 {/* <section className="py-20 bg-blueGray-50" id="how-we-work">
                     <div className="container px-4 mx-auto">
@@ -323,7 +321,7 @@ function Home() {
                         <div className="relative py-20 px-4 lg:p-20">
                             <div className="max-w-lg mx-auto text-center">
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
-                                    <span className="text-blue-500"> Contáctenos </span>
+                                    <span className="text-gpd-orange"> Contáctenos </span>
                                 </h2>
                                 <p className="mb-8 text-blueGray-400 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                     Si tienes preguntas, necesita más información o necesita producir algo, llámenos o envíenos un correo

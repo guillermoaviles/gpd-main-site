@@ -9,12 +9,14 @@ const Footer = () => {
                     <div className="flex flex-wrap mb-12 lg:mb-20 justify-center text-center lg:text-left">
                         <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
                             <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Localización</p>
-                            <p className="lg:text-lg text-blueGray-400">#300 Cll 11 NE<br/> San Juan, 00920<br/> Puerto Rico</p>
+                            <p className="lg:text-lg text-blueGray-400">#300 Cll 11 NE<br /> San Juan, 00920<br /> Puerto Rico</p>
                         </div>
                         <div className="w-full lg:w-1/5 px-3">
                             <p className="mb-2 lg:mb-4 lg:text-lg font-bold font-heading text-blueGray-800">Contacto</p>
                             <p className="lg:text-lg text-blueGray-400">(787) 782 6340</p>
-                            <p className="lg:text-lg text-blueGray-400">info@graphicprintingpr.com</p>
+                            <a href="mailto:info@graphicprintingpr.com">
+                                <p className="lg:text-lg text-blueGray-400 hover:text-gpd-orange">info@graphicprintingpr.com</p>
+                            </a>
                         </div>
                     </div>
                     <div className="flex flex-col lg:flex-row items-center lg:justify-between">

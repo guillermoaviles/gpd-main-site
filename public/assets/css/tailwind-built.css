@@ -1559,6 +1559,14 @@ video {
 	--tw-text-opacity: 1 !important;
 	color: rgba(30, 41, 59, var(--tw-text-opacity)) !important;
 }
+.text-gpd-blue{
+	--tw-text-opacity: 1 !important;
+	color: rgba(9, 23, 36, var(--tw-text-opacity)) !important;
+}
+.text-gpd-turquoise{
+	--text-bg-opacity: 1 !important;
+	color: rgba(121, 200, 204, var(--tw-text-opacity)) !important;
+}
 .text-blueGray-600{
 	--tw-text-opacity: 1 !important;
 	color: rgba(71, 85, 105, var(--tw-text-opacity)) !important;

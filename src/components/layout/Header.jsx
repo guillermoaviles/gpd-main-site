@@ -19,11 +19,10 @@ const Header = ({handleHidden}) => {
             <header className="bg-gray-light sticky-bar mt-4 stick">
                 <div className="container bg-transparent">
                     <nav className="bg-transparent flex justify-between items-center py-3">
-                        {}
                         <Link href="/" legacyBehavior>
                             <a className="text-3xl font-semibold leading-none">
                                 <img
-                                    className="h-12 p-2 bg-gray-light rounded-full"
+                                    className="h-12 p-0 bg-gray-light rounded-full"
                                     src="/assets/imgs/logos/gpd-logo-black.png"
                                     alt="Monst"
                                 />
