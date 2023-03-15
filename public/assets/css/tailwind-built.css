@@ -1561,7 +1561,7 @@ video {
 }
 .text-gpd-blue{
 	--tw-text-opacity: 1 !important;
-	color: rgba(9, 23, 36, var(--tw-text-opacity)) !important;
+	color: rgba(8, 22, 35, var(--tw-text-opacity)) !important;
 }
 .text-gpd-turquoise{
 	--text-bg-opacity: 1 !important;
