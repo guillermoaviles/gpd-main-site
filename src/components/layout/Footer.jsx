@@ -4,7 +4,7 @@ import Link from "next/link"
 const Footer = () => {
     return (
         <>
-            <section className="py-20">
+            <section className="py-10">
                 <div className="container px-4 mx-auto wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                     <div className="flex flex-wrap mb-12 lg:mb-20 justify-center text-center lg:text-left">
                         <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">

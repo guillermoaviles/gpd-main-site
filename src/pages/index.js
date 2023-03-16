@@ -100,7 +100,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="py-20 bg-center bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/elements/puerto-rico.svg')" }}>
+                <section className="py-20 mt-20 bg-center bg-no-repeat" style={{ backgroundImage: "url('assets/imgs/elements/puerto-rico.svg')" }}>
                     <div className="container px-4 mx-auto">
                         <div className="relative py-20 px-4 lg:p-20">
                             <div className="max-w-lg mx-auto text-center">
