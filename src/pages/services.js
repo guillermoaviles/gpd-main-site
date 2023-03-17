@@ -22,9 +22,6 @@ const Services = () => {
                         </div>
                     </div>
                 </section>
-                <div>
-
-                </div>
                 <section className="pt-24 pb-16 bg-gray-light xl:bg-contain bg-top bg-no-repeat">
                     <div className="w-10/12 h-[80vh] mx-auto">
                         <div className="text-center mb-24">
@@ -35,11 +32,11 @@ const Services = () => {
                         <div className="flex flex-wrap -mx-3">
                             <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="object-cover h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Revistas" />
+                                    <img className="object-cover h-full brightness-50 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Revistas" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
-                                        <h3 className="mb-2 text-4xl font-bold text-gpd-blue font-heading">Impresión de Prensa</h3>
+                                        <h3 className="mb-2 text-4xl font-bold text-blueGray-200 font-heading">Impresión de Prensa</h3>
                                         <div className="flex flex-col items-center mt-8 mb-8">
-                                            <ul className="text-gpd-blue">
+                                            <ul className="text-blueGray-200">
                                                 <li className="flex mb-3">
                                                     <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -100,11 +97,11 @@ const Services = () => {
                             </div>
                             <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="object-cover h-full opacity-20 rounded" src="/assets/imgs/illustrations/epson.jpg" alt="Monst" />
+                                    <img className="object-cover h-full brightness-50 rounded" src="/assets/imgs/illustrations/epson.jpg" alt="Monst" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
-                                        <h3 className="mb-2 text-4xl px-1 font-bold text-gpd-blue font-heading">Impresión Digital</h3>
+                                        <h3 className="mb-2 text-4xl px-1 font-bold text-blueGray-200 font-heading">Impresión Digital</h3>
                                         <div className="flex flex-col items-center mt-8 mb-8">
-                                            <ul className="text-gpd-blue">
+                                            <ul className="text-blueGray-200">
                                                 <li className="flex mb-3">
                                                     <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -165,11 +162,11 @@ const Services = () => {
                             </div>
                             <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="object-cover h-full opacity-20 rounded" src="/assets/imgs/illustrations/arquifoam.jpg" alt="Monst" />
+                                    <img className="object-cover h-full brightness-50 rounded" src="/assets/imgs/illustrations/arquifoam.jpg" alt="Monst" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
-                                        <h3 className="mb-2 text-4xl font-bold text-gpd-blue font-heading">Productos de Arquifoam</h3>
+                                        <h3 className="mb-2 text-4xl font-bold text-blueGray-200 font-heading">Productos de Arquifoam</h3>
                                         <div className="flex flex-col items-center mt-8 mb-8">
-                                            <ul className="text-gpd-blue">
+                                            <ul className="text-blueGray-200">
                                                 <li className="flex mb-3">
                                                     <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -230,11 +227,11 @@ const Services = () => {
                             </div>
                             <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="relative h-full hover-up-5 rounded shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="object-cover h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
+                                    <img className="object-cover h-full brightness-50 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
-                                        <h3 className="mb-2 text-4xl font-bold text-gpd-blue font-heading">Trabajos Especiales</h3>
+                                        <h3 className="mb-2 text-4xl font-bold text-blueGray-200 font-heading">Trabajos Especiales</h3>
                                         <div className="flex flex-col items-center mt-8 mb-8">
-                                            <ul className="text-gpd-blue">
+                                            <ul className="text-blueGray-200">
                                                 <li className="flex mb-3">
                                                     <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -293,6 +290,37 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="marquee">
+                        <div class="marquee--inner">
+                            <span>
+                                
+                                    <img className="object-cover w-[20px] opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
+                                
+                                
+                                    <img className="object-cover opacity-20 rounded" src="/assets/imgs/elements/display-panadol.png" alt="Monst" />
+                                
+                                <div class="orb yellow"></div>
+                                <div class="orb blue"></div>
+                                <div class="orb orange"></div>
+                                <div class="orb purple"></div>
+                                <div class="orb green"></div>
+                                <div class="orb"></div>
+                            </span>
+                            <span>
+                                <div class="orb"></div>
+                                <div class="orb red"></div>
+                                <div class="orb yellow"></div>
+                                <div class="orb blue"></div>
+                                <div class="orb orange"></div>
+                                <div class="orb purple"></div>
+                                <div class="orb green"></div>
+                                <div class="orb"></div>
+                            </span>
+
                         </div>
                     </div>
                 </section>
