@@ -66,7 +66,7 @@ function Home() {
                                     <span className="text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red"> Nunca subestimes el poder de una buena impresión </span>
                                 </h2>
                                 <p className="mb-8 mt-12 w-10/12 text-2xl text-blueGray-600 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    Aunque vivimos vidas aldamente digitalizadas, el material impreso sigue siendo uno de los medios
+                                    Aunque vivimos vidas altamente digitalizadas, el material impreso sigue siendo uno de los medios
                                     principales para vender servicios y productos. Y gracias a su poder de crear primeras impresiones
                                     impecablesy generar nuevas oportunidades de negocio, las piezas de mercadeo y publicidad impresas
                                     continuarán siendo una poderosa herramienta para las ventas.
