@@ -35,7 +35,7 @@ const Services = () => {
                         <div className="flex flex-wrap -mx-3">
                             <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
+                                    <img className="object-cover h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Revistas" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
                                         <h3 className="mb-2 text-4xl font-bold text-gpd-blue font-heading">Impresión de Prensa</h3>
                                         <div className="flex flex-col items-center mt-8 mb-8">
@@ -100,7 +100,7 @@ const Services = () => {
                             </div>
                             <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
+                                    <img className="object-cover h-full opacity-20 rounded" src="/assets/imgs/illustrations/epson.jpg" alt="Monst" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
                                         <h3 className="mb-2 text-4xl px-1 font-bold text-gpd-blue font-heading">Impresión Digital</h3>
                                         <div className="flex flex-col items-center mt-8 mb-8">
@@ -165,7 +165,7 @@ const Services = () => {
                             </div>
                             <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
+                                    <img className="object-cover h-full opacity-20 rounded" src="/assets/imgs/illustrations/arquifoam.jpg" alt="Monst" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
                                         <h3 className="mb-2 text-4xl font-bold text-gpd-blue font-heading">Productos de Arquifoam</h3>
                                         <div className="flex flex-col items-center mt-8 mb-8">
@@ -230,7 +230,7 @@ const Services = () => {
                             </div>
                             <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
                                 <div className="relative h-full hover-up-5 rounded shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
+                                    <img className="object-cover h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
                                         <h3 className="mb-2 text-4xl font-bold text-gpd-blue font-heading">Trabajos Especiales</h3>
                                         <div className="flex flex-col items-center mt-8 mb-8">
