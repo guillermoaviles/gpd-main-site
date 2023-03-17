@@ -13,9 +13,9 @@ const Services = () => {
                         <div className="absolute inset-y-0 top-0 left-0 h-full w-1/2">
                             <div className='h-8/12 w-8/12 mt-80 mx-auto'>
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
-                                    <span className="text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red">Servicios</span>
+                                    <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red">Servicios</span>
                                 </h2>
-                                <p class="mb-5 text-base text-gpd-blue sm:pr-10 md:text-2xl 2xl:p-5 2xl:rounded-none 2xl:bg-inherit">
+                                <p class="mb-5 text-base text-gpd-blue sm:pr-10 md:text-3xl 2xl:rounded-none 2xl:bg-inherit">
                                     <strong class="">Una vez cruza nuestras puertas</strong>, nada es imposible. Ven y descubre cómo podemos ayudarte hacer tu idea realidad a través de nuestro servicio de primera calidad y amplia variedad de productos.
                                 </p>
                             </div>
@@ -26,20 +26,20 @@ const Services = () => {
 
                 </div>
                 <section className="pt-24 pb-16 bg-gray-light xl:bg-contain bg-top bg-no-repeat">
-                    <div className="w-10/12 h-[100vh] mx-auto">
+                    <div className="w-10/12 h-[80vh] mx-auto">
                         <div className="text-center mb-24">
-                            <h2 className="max-w-lg mx-auto mb-4 text-4xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                            <h2 className="max-w-lg mb-4 text-5xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".2s">
                                 <span>Nuestros Servicios</span>
                             </h2>
                         </div>
                         <div className="flex flex-wrap -mx-3">
-                            <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
-                                <div className="relative h-full hover-up-5 border border-gray-200 rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <img className="h-full opacity-20" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
+                            <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
+                                <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                    <img className="h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
-                                        <h3 className="mb-2 text-4xl font-bold font-heading">Impresión de Prensa</h3>
+                                        <h3 className="mb-2 text-4xl font-bold text-gpd-blue font-heading">Impresión de Prensa</h3>
                                         <div className="flex flex-col items-center mt-8 mb-8">
-                                            <ul className="text-blueGray-400">
+                                            <ul className="text-gpd-blue">
                                                 <li className="flex mb-3">
                                                     <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -94,199 +94,202 @@ const Services = () => {
                                             <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
                                                 ¡Ver mas!
                                             </a>
-
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-                            <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
-                                <div className="hover-up-5 border border-gray-200 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-
-                                    <h3 className="mb-2 text-4xl font-bold font-heading">Impresión de Digital</h3>
-                                    <div className="flex flex-col items-center mt-8 mb-8">
-                                        <ul className="text-blueGray-400">
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Flyers</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Shoppers</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Posters</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Folletos</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Revistas</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Inserts</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Shelf Talkers y otras piezas POP</span>
-                                            </li>
-                                            <li className="flex">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Kits de Prensa</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
-                                            ¡Ver mas!
-                                        </a>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
-                                <div className="hover-up-5 border border-gray-200 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <h3 className="mb-2 text-4xl font-bold font-heading">Productos en Arquifoam</h3>
-                                    <div className="flex flex-col items-center mt-8 mb-8">
-                                        <ul className="text-blueGray-400">
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Flyers</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Shoppers</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Posters</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Folletos</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Revistas</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Inserts</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Shelf Talkers y otras piezas POP</span>
-                                            </li>
-                                            <li className="flex">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Kits de Prensa</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
-                                            ¡Ver mas!
-                                        </a>
-
+                            <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
+                                <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                    <img className="h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
+                                    <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
+                                        <h3 className="mb-2 text-4xl px-1 font-bold text-gpd-blue font-heading">Impresión Digital</h3>
+                                        <div className="flex flex-col items-center mt-8 mb-8">
+                                            <ul className="text-gpd-blue">
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Flyers</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Shoppers</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Posters</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Folletos</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Revistas</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Inserts</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Shelf Talkers y otras piezas POP</span>
+                                                </li>
+                                                <li className="flex">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Kits de Prensa</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
+                                                ¡Ver mas!
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-6">
-                                <div className="hover-up-5 border border-gray-200 pt-16 pb-8 px-4 text-center bg-white rounded shadow wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                    <h3 className="mb-2 text-4xl font-bold font-heading">Trabajos Especiales</h3>
-                                    <div className="flex flex-col items-center mt-8 mb-8">
-                                        <ul className="text-blueGray-400">
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Flyers</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Shoppers</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Posters</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Folletos</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Revistas</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Inserts</span>
-                                            </li>
-                                            <li className="flex mb-3">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Shelf Talkers y otras piezas POP</span>
-                                            </li>
-                                            <li className="flex">
-                                                <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                                </svg>
-                                                <span>Kits de Prensa</span>
-                                            </li>
-                                        </ul>
+                            <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
+                                <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                    <img className="h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
+                                    <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
+                                        <h3 className="mb-2 text-4xl font-bold text-gpd-blue font-heading">Productos de Arquifoam</h3>
+                                        <div className="flex flex-col items-center mt-8 mb-8">
+                                            <ul className="text-gpd-blue">
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Flyers</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Shoppers</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Posters</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Folletos</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Revistas</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Inserts</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Shelf Talkers y otras piezas POP</span>
+                                                </li>
+                                                <li className="flex">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Kits de Prensa</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
+                                                ¡Ver mas!
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
-                                            ¡Ver mas!
-                                        </a>
-
+                                </div>
+                            </div>
+                            <div className="w-full h-[590px] md:w-1/2 lg:w-1/4 px-3 mb-6">
+                                <div className="relative h-full hover-up-5 rounded shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+                                    <img className="h-full opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
+                                    <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
+                                        <h3 className="mb-2 text-4xl font-bold text-gpd-blue font-heading">Trabajos Especiales</h3>
+                                        <div className="flex flex-col items-center mt-8 mb-8">
+                                            <ul className="text-gpd-blue">
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Flyers</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Shoppers</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Posters</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Folletos</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Revistas</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Inserts</span>
+                                                </li>
+                                                <li className="flex mb-3">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Shelf Talkers y otras piezas POP</span>
+                                                </li>
+                                                <li className="flex">
+                                                    <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                    </svg>
+                                                    <span>Kits de Prensa</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
+                                                ¡Ver mas!
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
