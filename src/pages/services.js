@@ -303,22 +303,22 @@ const Services = () => {
                                 
                                     <img className="object-cover opacity-20 rounded" src="/assets/imgs/elements/display-panadol.png" alt="Monst" />
                                 
-                                <div class="orb yellow"></div>
-                                <div class="orb blue"></div>
-                                <div class="orb orange"></div>
-                                <div class="orb purple"></div>
-                                <div class="orb green"></div>
-                                <div class="orb"></div>
+                                <div className="orb yellow"></div>
+                                <div className="orb blue"></div>
+                                <div className="orb orange"></div>
+                                <div className="orb purple"></div>
+                                <div className="orb green"></div>
+                                <div className="orb"></div>
                             </span>
                             <span>
-                                <div class="orb"></div>
-                                <div class="orb red"></div>
-                                <div class="orb yellow"></div>
-                                <div class="orb blue"></div>
-                                <div class="orb orange"></div>
-                                <div class="orb purple"></div>
-                                <div class="orb green"></div>
-                                <div class="orb"></div>
+                                <div className="orb"></div>
+                                <div className="orb red"></div>
+                                <div className="orb yellow"></div>
+                                <div className="orb blue"></div>
+                                <div className="orb orange"></div>
+                                <div className="orb purple"></div>
+                                <div className="orb green"></div>
+                                <div className="orb"></div>
                             </span>
 
                         </div>
