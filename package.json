@@ -21,7 +21,8 @@
     "react-typing-effect": "^2.0.5",
     "react-visibility-sensor": "^5.1.1",
     "react-wow": "^1.0.0",
-    "swiper": "^8.4.6",
+    "swc-loader": "^0.2.3",
+    "swiper": "^8.4.7",
     "webpack-obj-loader": "^1.0.4",
     "wow.js": "^1.2.2",
     "wowjs": "^1.1.3"

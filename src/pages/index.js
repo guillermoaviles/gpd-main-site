@@ -3,7 +3,7 @@ import TextEffect from "../components/elements/TextEffect"
 import Layout from "../components/layout/Layout";
 import Slider1 from "../components/slider/Slider1";
 // import { useState, useEffect } from "react";
-
+import img from "../../public/assets/imgs/elements/pattern.png"
 function Home() {
 
     // useEffect(() => {
@@ -60,7 +60,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="flex flex-wrap h-[70vh] pt-20 lg:flex-nowrap">
-                        <div className="w-6/12 my-auto mx-auto">
+                        <div className=" w-6/12 my-auto mx-auto">
                             <div className="w-8/12 m-auto text-left">
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
                                     <span className="text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red"> Nunca subestimes el poder de una buena impresión </span>
