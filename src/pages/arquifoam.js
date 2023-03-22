@@ -46,13 +46,17 @@ const Arquifoam = () => {
                             </div>
                             <div className="relative overflow-hidden rounded-md shadow-2xl cursor-pointer group" data-rounded="rounded-md" data-rounded-max="rounded-full">
                                 <div className="absolute flex items-center justify-center w-full h-full">
-                                    <span className="flex items-center justify-center w-20 h-20 bg-purple-500 rounded-full shadow-2xl" data-rounded="rounded-full" data-primary="purple-500">
-                                        <svg className="w-auto h-8 ml-1 text-white fill-current" viewBox="0 0 52 66" xmlns="http://www.w3.org/2000/svg"><path d="M50 30.7L4.1.6C2.6-.4.8.9.8 2.9v60.3c0 2 1.8 3.3 3.3 2.3L50 35.3c1.5-1 1.5-3.6 0-4.6z" fill-rule="nonzero"></path></svg>
-                                    </span>
+                                    
                                 </div>
-                                <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2850&amp;h=1603&amp;q=80" className="z-10 object-cover w-full h-full" />
+                                {/* <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2850&amp;h=1603&amp;q=80" className="z-10 object-cover w-full h-full" /> */}
+                                <Model/>
                             </div>
                         </div>
+                    </div>
+                </section>
+                <section className="py-12 md:py-20">
+                    <div>
+                        {/* <Model/> */}
                     </div>
                 </section>
                 <section className="py-12 md:py-20">
