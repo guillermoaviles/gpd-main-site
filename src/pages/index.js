@@ -33,7 +33,7 @@ function Home() {
                                     <span className="sm:text-2xl font-bold font-heading count">
                                         <CounterUp count={28} time={3} />
                                     </span>
-                                    <p className="text-xs sm:text-base text-blueGray-400">Años de servicio</p>
+                                    <p className="text-xs sm:text-base text-blueGray-600">Años de servicio</p>
                                 </div>
                             </div>
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
@@ -45,7 +45,7 @@ function Home() {
                                     <span id="count" className="sm:text-2xl font-bold font-heading count">
                                         <CounterUp count={12} time={3} />
                                     </span>
-                                    <p className="text-xs sm:text-base text-blueGray-400">Países Servidos</p>
+                                    <p className="text-xs sm:text-base text-blueGray-600">Países Servidos</p>
                                 </div>
                             </div>
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".6s">
@@ -54,7 +54,7 @@ function Home() {
                                 </div>
                                 <div className="sm:py-2 ml-2 sm:ml-6">
                                     <span className="sm:text-2xl font-bold font-heading">Miles</span>
-                                    <p className="text-xs sm:text-base text-blueGray-400">Clientes Satisfechos</p>
+                                    <p className="text-xs sm:text-base text-blueGray-600">Clientes Satisfechos</p>
                                 </div>
                             </div>
                         </div>

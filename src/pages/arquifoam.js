@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/layout/Layout';
 import CounterUp from "../components/elements/Counterup";
 import Model from "../components/model/Model"
+import Slider1 from "../components/slider/Slider1"
 
 const Arquifoam = () => {
     return (
@@ -16,7 +17,7 @@ const Arquifoam = () => {
                                     <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red">Productos en Arquifoam®
                                     </span>
                                 </h2>
-                                <p className="mb-5 text-base text-gpd-blue sm:pr-10 md:text-3xl 2xl:rounded-none 2xl:bg-inherit">
+                                <p className="mb-5 text-base text-blueGray-600 sm:pr-10 md:text-3xl 2xl:rounded-none 2xl:bg-inherit">
                                     <strong className="">Aquifoam® </strong>es un material propietario que ha revolucionado el mercado de los muebles y displays para punto de venta (POP), y nos ha posicionado como líderes de vanguardia en la categoría. Este innovador producto es mucho más duradero que el cartón ya que utiliza el material  polipropileno, que es más resistente.
                                 </p>
                                 <div className="relative flex mt-4">
@@ -31,12 +32,12 @@ const Arquifoam = () => {
                 <section className="relative flex flex-col items-center justify-center w-full px-6 bg-gray-light bg-cover lg:py-48 min-w-screen 2xl:bg-[#f4f4f2] tails-selected-element">
                     <div className="flex flex-col items-center justify-center mx-auto sm:p-6 xl:p-8 lg:flex-row lg:max-w-6xl lg:p-0">
                         <div className="container relative z-20 flex flex-col w-full px-5 pb-1 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:pr-0 md:pr-6 md:pl-0 lg:pl-5 xl:pr-10 sm:items-center lg:items-start lg:mb-0">
-                            <h1 className="relative z-20 text-5xl font-extrabold leading-none text-text-gray-800 xl:text-6xl sm:text-center lg:text-left" data-primary="purple-500">
+                            <h1 className="relative z-20 text-5xl font-extrabold leading-none text-blueGray-800 xl:text-6xl sm:text-center lg:text-left" data-primary="purple-500">
                                 Diseñado con<br />tu
                                 <span className="mt-1 text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red lg:mt-0"> producto</span><br />
                                 en mente
                             </h1>
-                            <p className="relative z-20 block mt-6 text-2xl text-blurGray-600 xl:text-3xl sm:text-center lg:text-left">El límite es tu imaginació cuando se trata de obtener el perfecto exhibidor para tu producto. ¡Ven y diseña tu exhibidor con nosotros!</p>
+                            <p className="relative z-20 block mt-6 text-2xl text-blueGray-600 xl:text-3xl sm:text-center lg:text-left">El límite es tu imaginació cuando se trata de obtener el perfecto exhibidor para tu producto. ¡Ven y diseña tu exhibidor con nosotros!</p>
 
                         </div>
                         <div className="relative w-full px-5 rounded-lg cursor-pointer lg:w-1/2 group xl:px-0">
@@ -50,6 +51,29 @@ const Arquifoam = () => {
                                     </span>
                                 </div>
                                 <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2850&amp;h=1603&amp;q=80" className="z-10 object-cover w-full h-full" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="py-12 md:py-20">
+                    <div className="container px-4 mx-auto">
+                        <div className="flex flex-wrap -mx-3">
+                            <div className="relative w-full lg:w-1/3 mb-8 lg:mb-0 text-center lg:text-left">
+                                <div className="max-w-md lg:max-w-xs lg:pr-16 mx-auto lg:ml-0 mb-6 lg:mb-0">
+                                    <h2 className="text-3xl md:text-4xl mb-4 font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                        Amplio espacio creativo para <span className="text-blue-500">resaltar</span> tus productos
+                                    </h2>
+                                    <p className="text-xs md:text-base text-blueGray-600 leading-loose wow animate__animated animate__fadeIn" data-wow-delay=".9s">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="w-full lg:w-2/3 flex flex-wrap">
+                                <div className="relative w-full">
+                                    <div className="carausel-2-columns slick-carausel" id="carausel-2-columns-1">
+                                        <Slider1 />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
