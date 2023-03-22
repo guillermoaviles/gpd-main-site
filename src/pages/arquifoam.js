@@ -9,32 +9,35 @@ const Arquifoam = () => {
             <Layout>
                 <section className="z-0 bg-gray-light w-full bg-cover bg-top -mt-24">
                     <div className="relative">
-                        <img className="w-full" src="/servicios-hero-2.png" alt="Monst" />
+                        <img className="w-full" src="/arquifoam-hero.png" alt="Monst" />
                         <div className="absolute inset-y-0 top-0 left-0 h-full w-1/2">
                             <div className='h-8/12 w-8/12 mt-80 mx-auto'>
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
-                                    <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red">Servicios</span>
+                                    <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red">Productos en Arquifoam®
+                                    </span>
                                 </h2>
                                 <p className="mb-5 text-base text-gpd-blue sm:pr-10 md:text-3xl 2xl:rounded-none 2xl:bg-inherit">
-                                    <strong className="">Una vez cruza nuestras puertas</strong>, nada es imposible. Ven y descubre cómo podemos ayudarte hacer tu idea realidad a través de nuestro servicio de primera calidad y amplia variedad de productos.
+                                    <strong className="">Aquifoam® </strong>es un material propietario que ha revolucionado el mercado de los muebles y displays para punto de venta (POP), y nos ha posicionado como líderes de vanguardia en la categoría. Este innovador producto es mucho más duradero que el cartón ya que utiliza el material  polipropileno, que es más resistente.
                                 </p>
+                                <div className="relative flex mt-4">
+                                    <a href="#_" className="flex items-center self-start justify-center px-5 py-2 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-blue border border-transparent rounded-full shadow lg:py-4 hover:bg-purple-600 focus:outline-none focus:border-purple-600 focus:shadow-outline-purple md:text-lg xl:text-xl md:px-5 xl:px-10 2xl:shadow-lg" data-primary="purple-500" data-rounded="rounded-full">Ver más</a>
+
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </section>
-                <section className="relative flex flex-col items-center justify-center w-full px-6 py-24 bg-gray-light bg-cover lg:py-32 min-w-screen 2xl:bg-[#f4f4f2] tails-selected-element">
-                    <div className="flex flex-col items-center justify-center h-[90vh] mx-auto sm:p-6 xl:p-8 lg:flex-row lg:max-w-6xl lg:p-0">
+                <section className="relative flex flex-col items-center justify-center w-full px-6 bg-gray-light bg-cover lg:py-48 min-w-screen 2xl:bg-[#f4f4f2] tails-selected-element">
+                    <div className="flex flex-col items-center justify-center mx-auto sm:p-6 xl:p-8 lg:flex-row lg:max-w-6xl lg:p-0">
                         <div className="container relative z-20 flex flex-col w-full px-5 pb-1 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:pr-0 md:pr-6 md:pl-0 lg:pl-5 xl:pr-10 sm:items-center lg:items-start lg:mb-0">
                             <h1 className="relative z-20 text-5xl font-extrabold leading-none text-text-gray-800 xl:text-6xl sm:text-center lg:text-left" data-primary="purple-500">
                                 Diseñado con<br />tu
                                 <span className="mt-1 text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red lg:mt-0"> producto</span><br />
                                 en mente
                             </h1>
-                            <p className="relative z-20 block mt-6 text-base text-gray-500 xl:text-xl sm:text-center lg:text-left">We've crafted the ultimate tool that helps you build the design of your dreams. Built with configuration in mind, you can fully customize every aspect.</p>
-                            <div className="relative flex mt-4">
-                                <a href="#_" className="flex items-center self-start justify-center px-5 py-2 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-purple-500 border border-transparent rounded-full shadow lg:py-4 hover:bg-purple-600 focus:outline-none focus:border-purple-600 focus:shadow-outline-purple md:text-lg xl:text-xl md:px-5 xl:px-10 2xl:shadow-lg" data-primary="purple-500" data-rounded="rounded-full">Ver más</a>
+                            <p className="relative z-20 block mt-6 text-2xl text-blurGray-600 xl:text-3xl sm:text-center lg:text-left">El límite es tu imaginació cuando se trata de obtener el perfecto exhibidor para tu producto. ¡Ven y diseña tu exhibidor con nosotros!</p>
 
-                            </div>
                         </div>
                         <div className="relative w-full px-5 rounded-lg cursor-pointer lg:w-1/2 group xl:px-0">
                             <div className="absolute top-0 left-0 w-11/12 -mt-20 opacity-50">
