@@ -15,8 +15,8 @@ const Services = () => {
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
                                     <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red">Servicios</span>
                                 </h2>
-                                <p class="mb-5 text-base text-gpd-blue sm:pr-10 md:text-3xl 2xl:rounded-none 2xl:bg-inherit">
-                                    <strong class="">Una vez cruza nuestras puertas</strong>, nada es imposible. Ven y descubre cómo podemos ayudarte hacer tu idea realidad a través de nuestro servicio de primera calidad y amplia variedad de productos.
+                                <p className="mb-5 text-base text-gpd-blue sm:pr-10 md:text-3xl 2xl:rounded-none 2xl:bg-inherit">
+                                    <strong className="">Una vez cruza nuestras puertas</strong>, nada es imposible. Ven y descubre cómo podemos ayudarte hacer tu idea realidad a través de nuestro servicio de primera calidad y amplia variedad de productos.
                                 </p>
                             </div>
                         </div>
@@ -218,7 +218,7 @@ const Services = () => {
                                             </ul>
                                         </div>
                                         <div>
-                                            <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
+                                            <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="/arquifoam">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
@@ -294,8 +294,8 @@ const Services = () => {
                     </div>
                 </section>
                 <section>
-                    <div class="marquee">
-                        <div class="marquee--inner">
+                    <div className="marquee">
+                        <div className="marquee--inner">
                             <span>
                                 
                                     <img className="object-cover w-[20px] opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
@@ -340,7 +340,8 @@ const Services = () => {
                                     <div className="mb-4 text-sm wow animate__animated animate__fadeIn" data-wow-delay=".5s">
                                         <span className="mr-4 font-semibold">Departamento:</span>
                                         <label className="mr-4">
-                                            <input className="mr-1" type="radio" name="department" value="1" checked="" />
+                                            <input className="mr-1" type="radio" name="department" value="1" />
+                                            {/* <input className="mr-1" type="radio" name="department" value="1" checked="" /> */}
                                             <span>Servicio</span>
                                         </label>
                                         <label>
