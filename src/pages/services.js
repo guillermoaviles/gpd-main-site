@@ -7,7 +7,7 @@ const Services = () => {
     return (
         <>
             <Layout>
-                <section className="z-0 bg-gray-light w-full bg-cover bg-top -mt-24">
+                <section className="z-0 h-100vh] bg-gray-light w-full bg-cover bg-top -mt-32">
                     <div className="relative">
                         <img className="w-full" src="/servicios-hero-2.png" alt="Monst" />
                         <div className="absolute inset-y-0 top-0 left-0 h-full w-1/2">
@@ -18,6 +18,9 @@ const Services = () => {
                                 <p className="mb-5 text-base text-blueGray-600 sm:pr-10 md:text-3xl 2xl:rounded-none 2xl:bg-inherit">
                                     <strong className="">Una vez cruza nuestras puertas</strong>, nada es imposible. Ven y descubre cómo podemos ayudarte hacer tu idea realidad a través de nuestro servicio de primera calidad y amplia variedad de productos.
                                 </p>
+                                <div className="relative flex mt-4">
+                                    <a href="#_" className="flex items-center self-start justify-center px-5 py-2 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-blue border border-transparent rounded-full shadow lg:py-4 hover:bg-purple-600 focus:outline-none focus:border-purple-600 focus:shadow-outline-purple md:text-lg xl:text-xl md:px-5 xl:px-10 2xl:shadow-lg" data-primary="purple-500" data-rounded="rounded-full">Ver más</a>
+                                </div>
                             </div>
                         </div>
                     </div>

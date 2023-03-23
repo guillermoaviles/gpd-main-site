@@ -84,7 +84,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="w-6/12 my-auto mx-auto">
-                            <div className="w-8/12 m-auto text-center">
+                            <div className="w-8/12 m-auto text-right">
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
                                     <span className="text-transparent text-5xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red"> Misión </span>
                                 </h2>
