@@ -7,15 +7,19 @@ import { STLLoader } from "three/examples/jsm/loaders/STLLoader";
 
 interface ModelRenderProps {
   url: string;
+
 }
 
 function ModelRender({ url }: ModelRenderProps) {
   const geom = useLoader(STLLoader, url);
   console.log(geom);
   return (
-    <mesh geometry={geom}>
-      <meshPhongMaterial color="black" />
-    </mesh>
+    <group scale={5}>
+      <mesh geometry={geom}>
+        <meshPhongMaterial color="blue" />
+      </mesh>
+    </group>
+
   );
 }
 
@@ -27,9 +31,10 @@ export default function Model() {
         camera={{ position: [450, 650, 20], fov: 30 }}
       >
         <Suspense fallback={"loading..."}>
-          <ModelRender url="/CocaColaFloorstandEvian.stl" />
+          <ModelRender url="/evian-display.stl" />
         </Suspense>
-        <OrbitControls panSpeed={0.5} rotateSpeed={0.4} />
+        <OrbitControls panSpeed={0.5} rotateSpeed={0.4} enableZoom={false} />
+        <ambientLight intensity={0.5} />
         <spotLight
           intensity={1.5}
           angle={0.1}
