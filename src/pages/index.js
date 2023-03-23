@@ -16,16 +16,12 @@ function Home() {
             <Layout>
                 <section className="bg-gray-light w-full bg-cover bg-top -mt-24">
                     <img className="w-full" src="/gpd-hero-main-new.png" alt="Monst" />
-
                 </section>
                 <section className="bg-gray-light h-[90vh]" id="key-features">
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap justify-between ">
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
                                 <div className="flex justify-center items-center bg-blueGray-400 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
-                                    {/* <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                                    </svg> */}
                                     <img className="h-12 w-auto wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/handshake-skin-4-svgrepo-com.svg" alt="Monst" />
                                 </div>
                                 <div className="sm:py-2 ml-2 sm:ml-6">
@@ -80,7 +76,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="bg-gray-light h-[80vh] " id="key-features">
+                <section className="bg-gray-light pt-20 h-[80vh] " id="key-features">
                     <div className="flex flex-wrap h-[70vh] lg:flex-nowrap">
                         <div className=" w-6/12 m-auto wow animate__animated animate__fadeIn rounded-3xl" data-wow-delay=".5s">
                             <div className=" w-8/12 mx-auto">

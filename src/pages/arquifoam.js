@@ -8,7 +8,7 @@ const Arquifoam = () => {
     return (
         <>
             <Layout>
-                <section className="z-0 bg-gray-light w-full bg-cover bg-top -mt-24">
+                <section className="z-0 h-[100vh] bg-gray-light w-full bg-cover bg-top -mt-24">
                     <div className="relative">
                         <img className="w-full" src="/arquifoam-hero.png" alt="Monst" />
                         <div className="absolute inset-y-0 top-0 left-0 h-full w-1/2">

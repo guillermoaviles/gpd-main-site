@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/arquifoam": [
+    "/services": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/arquifoam.js"
+      "static/chunks/pages/services.js"
     ]
   },
   "ampFirstPages": []

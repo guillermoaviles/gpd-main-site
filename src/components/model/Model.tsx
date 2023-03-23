@@ -14,8 +14,8 @@ function ModelRender({ url }: ModelRenderProps) {
   const geom = useLoader(STLLoader, url);
   console.log(geom);
   return (
-    <group scale={5}>
-      <mesh geometry={geom}>
+    <group scale={6}>
+      <mesh geometry={geom} rotation={[8, 3, 19]}>
         <meshPhongMaterial color="blue" />
       </mesh>
     </group>
@@ -33,7 +33,7 @@ export default function Model() {
         <Suspense fallback={"loading..."}>
           <ModelRender url="/evian-display.stl" />
         </Suspense>
-        <OrbitControls panSpeed={0.5} rotateSpeed={0.4} enableZoom={false} />
+        <OrbitControls panSpeed={0.5} rotateSpeed={0.4} autoRotate={true} enableZoom={false} />
         <ambientLight intensity={0.5} />
         <spotLight
           intensity={1.5}
@@ -45,7 +45,7 @@ export default function Model() {
           intensity={1.5}
           angle={2.5}
           penumbra={1}
-          position={[250, 150, 40]}
+          position={[150, 150, 40]}
         />
       </Canvas>
     </div>
