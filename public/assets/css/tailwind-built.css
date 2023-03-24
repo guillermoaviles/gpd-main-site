@@ -1211,6 +1211,10 @@ video {
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(236, 143, 82, var(--tw-bg-opacity)) !important;
 }
+.bg-gpd-orange-dark{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(212, 128, 76, var(--tw-bg-opacity)) !important;
+}
 .bg-gpd-red{
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(189, 36, 43, var(--tw-bg-opacity)) !important;

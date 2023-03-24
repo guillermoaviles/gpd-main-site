@@ -13,13 +13,13 @@ const Services = () => {
                         <div className="absolute inset-y-0 top-0 left-0 h-full w-1/2">
                             <div className='h-8/12 w-8/12 mt-80 mx-auto'>
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
-                                    <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red">Servicios</span>
+                                    <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red">Soluciones</span>
                                 </h2>
                                 <p className="mb-5 text-base text-blueGray-600 sm:pr-10 md:text-3xl 2xl:rounded-none 2xl:bg-inherit">
                                     <strong className="">Una vez cruza nuestras puertas</strong>, nada es imposible. Ven y descubre cómo podemos ayudarte hacer tu idea realidad a través de nuestro servicio de primera calidad y amplia variedad de productos.
                                 </p>
                                 <div className="relative flex mt-4">
-                                    <a href="#_" className="flex items-center self-start justify-center px-5 py-2 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-blue border border-transparent rounded-full shadow lg:py-4 hover:bg-purple-600 focus:outline-none focus:border-purple-600 focus:shadow-outline-purple md:text-lg xl:text-xl md:px-5 xl:px-10 2xl:shadow-lg" data-primary="purple-500" data-rounded="rounded-full">Ver más</a>
+                                    <a href="#_" className="flex items-center self-start justify-center px-5 py-2 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-full shadow lg:py-4 hover:bg-purple-600 focus:outline-none focus:border-purple-600 focus:shadow-outline-purple md:text-lg xl:text-xl md:px-5 xl:px-10 2xl:shadow-lg" data-primary="purple-500" data-rounded="rounded-full">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -29,7 +29,7 @@ const Services = () => {
                     <div className="w-10/12 h-[80vh] mx-auto">
                         <div className="text-center mb-24">
                             <h2 className="max-w-lg mb-4 text-5xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                <span>Nuestros Servicios</span>
+                                <span>Nuestras Soluciones</span>
                             </h2>
                         </div>
                         <div className="flex flex-wrap -mx-3">
@@ -91,7 +91,7 @@ const Services = () => {
                                             </ul>
                                         </div>
                                         <div>
-                                            <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
+                                            <a className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-s text-white text-center font-semibold leading-none bg-gpd-orange hover:bg-blue-500 rounded-full" href="#">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
@@ -156,7 +156,7 @@ const Services = () => {
                                             </ul>
                                         </div>
                                         <div>
-                                            <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
+                                            <a className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-s text-white text-center font-semibold leading-none bg-gpd-orange hover:bg-blue-500 rounded-full" href="#">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
@@ -221,7 +221,7 @@ const Services = () => {
                                             </ul>
                                         </div>
                                         <div>
-                                            <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="/arquifoam">
+                                            <a className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-s text-white text-center font-semibold leading-none bg-gpd-orange hover:bg-blue-500 rounded-full" href="/arquifoam">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
@@ -286,7 +286,7 @@ const Services = () => {
                                             </ul>
                                         </div>
                                         <div>
-                                            <a className="block sm:inline-block py-4 px-6 mb-4 sm:mb-0 sm:mr-3 text-xs text-white text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded" href="#">
+                                            <a className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-s text-white text-center font-semibold leading-none bg-gpd-orange hover:bg-blue-500 rounded-full" href="#">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
@@ -296,16 +296,16 @@ const Services = () => {
                         </div>
                     </div>
                 </section>
-                <section>
+                {/* <section>
                     <div className="marquee">
                         <div className="marquee--inner">
                             <span>
-                                
-                                    <img className="object-cover w-[20px] opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
-                                
-                                
-                                    <img className="object-cover opacity-20 rounded" src="/assets/imgs/elements/display-panadol.png" alt="Monst" />
-                                
+
+                                <img className="object-cover w-[20px] opacity-20 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Monst" />
+
+
+                                <img className="object-cover opacity-20 rounded" src="/assets/imgs/elements/display-panadol.png" alt="Monst" />
+
                                 <div className="orb yellow"></div>
                                 <div className="orb blue"></div>
                                 <div className="orb orange"></div>
@@ -326,16 +326,16 @@ const Services = () => {
 
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="">
                     <div className="container mt-20">
                         <div className="max-w-2xl mx-auto text-center">
                             <div className="max-w-md mb-8 mx-auto">
-                                <span className="text-xs py-1 px-3 text-blue-500 font-semibold bg-blue-50 rounded-xl wow animate__animated animate__fadeInDown" data-wow-delay=".9s">
+                                <span className="text-xs py-1 px-3 text-gpd-orange font-semibold bg-gray-light rounded-xl wow animate__animated animate__fadeInDown" data-wow-delay=".9s">
                                     Contáctanos
                                 </span>
-                                <h2 className="mt-2 text-4xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    ¡Nos <span className="text-blue-500">encantaría</span> ayudarte!
+                                <h2 className="mt-2 text-4xl text-gpd-blue font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+                                    ¡Nos <span className="text-gpd-turquoise">encantaría</span> ayudarte!
                                 </h2>
                             </div>
                             <div>
@@ -353,16 +353,16 @@ const Services = () => {
                                         </label>
                                     </div>
                                     <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="text" placeholder="Sujeto" />
+                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="text" placeholder="Sujeto" />
                                     </div>
                                     <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="text" placeholder="Nombre" />
+                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="text" placeholder="Nombre" />
                                     </div>
                                     <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none" type="email" placeholder="Correo electrónico" />
+                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="email" placeholder="Correo electrónico" />
                                     </div>
                                     <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <textarea className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-blueGray-50 rounded outline-none" placeholder="Mensaje..."></textarea>
+                                        <textarea className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-gray-light rounded outline-none" placeholder="Mensaje..."></textarea>
                                     </div>
                                     {/* <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                         <label className="flex px-2 bg-blueGray-50 rounded">
@@ -371,7 +371,7 @@ const Services = () => {
                                         </label>
                                     </div> */}
                                     <div className="flex justify-center items-center wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <button className="py-4 px-8 text-sm text-white font-semibold leading-none bg-blue-500 hover:bg-blue-700 rounded" type="submit">
+                                        <button className="py-4 px-8 text-s text-white font-semibold leading-none bg-gpd-turquoise hover:bg-blue-700 rounded-full" type="submit">
                                             Enviar
                                         </button>
                                     </div>
