@@ -65,7 +65,7 @@ const Header = ({ handleHidden }) => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/blog-single" legacyBehavior>
+                                            <Link href="/arquifoam" legacyBehavior>
                                                 <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
                                                     Productos en Arquifoam
                                                 </a>
@@ -236,7 +236,7 @@ const Header = ({ handleHidden }) => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-single" legacyBehavior>
+                                        <Link href="/arquifoam" legacyBehavior>
                                             <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
                                                 Productos en Arquifoam
                                             </a>

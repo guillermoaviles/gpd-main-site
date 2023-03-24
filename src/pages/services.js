@@ -7,11 +7,11 @@ const Services = () => {
     return (
         <>
             <Layout>
-                <section className="z-0 h-100vh] bg-gray-light w-full bg-cover bg-top -mt-32">
+                <section className="z-0 h-[100vh] bg-gray-light w-full bg-cover bg-top -mt-32">
                     <div className="relative">
-                        <img className="w-full" src="/servicios-hero-2.png" alt="Monst" />
+                        <img className="w-full" src="/servicios-hero-2.png" alt="Servicios Hero" />
                         <div className="absolute inset-y-0 top-0 left-0 h-full w-1/2">
-                            <div className='h-8/12 w-8/12 mt-80 mx-auto'>
+                            <div className='h-8/12 w-8/12 mt-[30vh] mx-auto'>
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
                                     <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red">Soluciones</span>
                                 </h2>
@@ -25,7 +25,7 @@ const Services = () => {
                         </div>
                     </div>
                 </section>
-                <section className="pt-24 pb-16 bg-gray-light xl:bg-contain bg-top bg-no-repeat">
+                <section className="pt-32 pb-16 bg-gray-light xl:bg-contain bg-top bg-no-repeat">
                     <div className="w-10/12 h-[80vh] mx-auto">
                         <div className="text-center mb-24">
                             <h2 className="max-w-lg mb-4 text-5xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".2s">
