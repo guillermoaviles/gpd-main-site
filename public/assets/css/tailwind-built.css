@@ -1227,6 +1227,10 @@ video {
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(50, 137, 149, var(--tw-bg-opacity)) !important;
 }
+.bg-arquifoam{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(0, 157, 169, var(--tw-bg-opacity)) !important;
+}
 .bg-blueGray-800{
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(30, 41, 59, var(--tw-bg-opacity)) !important;
@@ -1570,6 +1574,10 @@ video {
 .text-gpd-turquoise{
 	--tw-text-opacity: 1 !important;
 	color: rgba(121, 200, 204, var(--tw-text-opacity)) !important;
+}
+.text-arquifoam{
+	--tw-text-opacity: 1 !important;
+	color: rgba(0, 157, 169, var(--tw-text-opacity)) !important;
 }
 .text-blueGray-600{
 	--tw-text-opacity: 1 !important;
