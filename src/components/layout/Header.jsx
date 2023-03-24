@@ -17,7 +17,7 @@ const Header = ({ handleHidden }) => {
         return (
             <>
                 <header className="bg-gray-light sticky-bar mt-4 stick">
-                    <div className="w-[80vw] mx-auto bg-transparent">
+                    <div className="w-[90vw] mx-auto bg-transparent">
                         <nav className="bg-transparent flex justify-between items-center py-3">
                             <Link href="/" legacyBehavior>
                                 <a className="text-3xl font-semibold leading-none">
@@ -28,7 +28,7 @@ const Header = ({ handleHidden }) => {
                                     />
                                 </a>
                             </Link>
-                            <ul className="hidden bg-gray-light rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-8 px-6">
+                            <ul className="hidden bg-gray-light rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-11 px-6">
                                 <li className="group relative pb-4 pt-4 ">
                                     <Link href="/" legacyBehavior>
                                         <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
@@ -196,9 +196,9 @@ const Header = ({ handleHidden }) => {
     return (
         <>
             <header className="bg-transparent sticky-bar mt-4">
-                <div className="w-[80vw] mx-auto bg-transparent">
+                <div className="w-[90vw] mx-auto bg-transparent">
                     <nav className="bg-transparent flex justify-end items-center py-3">
-                        <ul className="hidden rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-8 px-6">
+                        <ul className="hidden rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-11 px-6">
                         {/* <ul className="hidden bg-gpd-blue rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-8 px-6"> */}
                             <li className="group relative pb-4 pt-4 ">
                                 <Link href="/" legacyBehavior>

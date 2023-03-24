@@ -20,7 +20,7 @@ const Arquifoam = () => {
                                     <strong className="text-arquifoam">Aquifoam® </strong>es un material propietario que ha revolucionado el mercado de los muebles y displays para punto de venta (POP), y nos ha posicionado como líderes de vanguardia en la categoría. Este innovador producto es mucho más duradero que el cartón ya que utiliza el material  polipropileno, que es más resistente.
                                 </p>
                                 <div className="relative flex mt-4">
-                                    <a href="#_" className="flex items-center self-start justify-center px-5 py-2 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-full shadow lg:py-4 hover:bg-purple-600 focus:outline-none focus:border-purple-600 focus:shadow-outline-purple md:text-lg xl:text-xl md:px-5 xl:px-10 2xl:shadow-lg" data-primary="purple-500" data-rounded="rounded-full">Ver más</a>
+                                    <a href="#_" className="flex items-center self-start justify-center px-5 py-2 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-blue border border-transparent rounded-md shadow lg:py-4 hover:bg-purple-600 focus:outline-none focus:border-purple-600 focus:shadow-outline-purple md:text-lg xl:text-xl md:px-5 xl:px-10 2xl:shadow-lg" data-primary="purple-500" data-rounded="rounded-full">Ver más</a>
                                 </div>
                             </div>
 
@@ -157,7 +157,7 @@ const Arquifoam = () => {
                                         </label>
                                     </div> */}
                                     <div className="flex justify-center items-center wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <button className="py-4 px-8 text-s text-white font-semibold leading-none bg-gpd-turquoise hover:bg-blue-700 rounded-full" type="submit">
+                                        <button className="py-4 px-8 text-s text-white font-semibold leading-none bg-gpd-turquoise hover:bg-blue-700 rounded-md" type="submit">
                                             Enviar
                                         </button>
                                     </div>
