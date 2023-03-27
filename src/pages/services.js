@@ -353,13 +353,13 @@ const Services = () => {
                                         </label>
                                     </div>
                                     <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="text" placeholder="Sujeto" />
+                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="text" placeholder="Asunto:" />
                                     </div>
                                     <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="text" placeholder="Nombre" />
+                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="text" placeholder="Nombre:" />
                                     </div>
                                     <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="email" placeholder="Correo electrónico" />
+                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="email" placeholder="Correo electrónico:" />
                                     </div>
                                     <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
                                         <textarea className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-gray-light rounded outline-none" placeholder="Mensaje..."></textarea>

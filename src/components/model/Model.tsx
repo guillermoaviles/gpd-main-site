@@ -16,7 +16,7 @@ function ModelRender({ url }: ModelRenderProps) {
   return (
     <group scale={6}>
       <mesh geometry={geom} rotation={[8, 3, 19]}>
-        <meshPhongMaterial color="blue" />
+        <meshMatcapMaterial color="#ec6652" />
       </mesh>
     </group>
 

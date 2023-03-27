@@ -46,7 +46,7 @@ const Header = ({ handleHidden }) => {
                                 <li className="group relative pt-4 pb-4 has-child">
                                     <Link href="/services" legacyBehavior>
                                         <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
-                                            Soluciones
+                                            Servicios
                                         </a>
                                     </Link>
                                     <ul className="drop-down-menu min-w-200">
@@ -217,7 +217,7 @@ const Header = ({ handleHidden }) => {
                             <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="/services" legacyBehavior>
                                     <a className="text-sm font-semibold text-white hover:text-blueGray-500">
-                                        Soluciones
+                                        Servicios
                                     </a>
                                 </Link>
                                 <ul className="drop-down-menu min-w-200">

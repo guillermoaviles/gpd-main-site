@@ -17,7 +17,7 @@ const Arquifoam = () => {
                                     <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-gpd-turquoise via-gpd-blue to-gpd-red">Productos en Arquifoam®</span>
                                 </h2>
                                 <p className="mb-5 text-base text-blueGray-600 sm:pr-10 md:text-3xl 2xl:rounded-none 2xl:bg-inherit">
-                                    <strong className="text-arquifoam">Aquifoam® </strong>es un material propietario que ha revolucionado el mercado de los muebles y displays para punto de venta (POP), y nos ha posicionado como líderes de vanguardia en la categoría. Este innovador producto es mucho más duradero que el cartón ya que utiliza el material  polipropileno, que es más resistente.
+                                    <strong className="text-arquifoam">Arquifoam® </strong>es un material exclusivo que ha revolucionado el mercado de los muebles y displays para punto de venta (POP), y nos ha posicionado como líderes de vanguardia en la categoría. Este innovador producto es mucho más duradero que el cartón ya que utiliza el material  polipropileno, que es más resistente.
                                 </p>
                                 <div className="relative flex mt-4">
                                     <a href="#_" className="flex items-center self-start justify-center px-5 py-2 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-blue border border-transparent rounded-md shadow lg:py-4 hover:bg-purple-600 focus:outline-none focus:border-purple-600 focus:shadow-outline-purple md:text-lg xl:text-xl md:px-5 xl:px-10 2xl:shadow-lg" data-primary="purple-500" data-rounded="rounded-full">Ver más</a>
