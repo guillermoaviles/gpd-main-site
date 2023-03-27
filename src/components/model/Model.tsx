@@ -15,7 +15,7 @@ function ModelRender({ url }: ModelRenderProps) {
   console.log(geom);
   return (
     <group scale={6}>
-      <mesh geometry={geom} rotation={[8, 3, 19]}>
+      <mesh geometry={geom} position={[0, -32, -10]} rotation={[8, 3, 19]}>
         <meshMatcapMaterial color="#ec6652" />
       </mesh>
     </group>
