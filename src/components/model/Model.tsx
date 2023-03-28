@@ -14,7 +14,7 @@ function ModelRender({ url }: ModelRenderProps) {
   const geom = useLoader(STLLoader, url);
   console.log(geom);
   return (
-    <group scale={6}>
+    <group scale={5}>
       <mesh geometry={geom} position={[0, -32, -10]} rotation={[8, 3, 19]}>
         <meshMatcapMaterial color="#ec6652" />
       </mesh>
@@ -27,7 +27,7 @@ export default function Model() {
   return (
     <div className="App">
       <Canvas
-        style={{ height: "400px" }}
+        style={{ height: "600px" }}
         camera={{ position: [450, 650, 20], fov: 30 }}
       >
         <Suspense fallback={"loading..."}>

@@ -27,7 +27,7 @@ const Arquifoam = () => {
                         </div>
                     </div>
                 </section>
-                <section className="relative flex flex-col items-center justify-center w-full px-6 bg-gray-light bg-cover lg:py-48 min-w-screen 2xl:bg-[#f4f4f2] tails-selected-element">
+                <section className="relative flex flex-col items-center justify-center w-full px-6 bg-gray-light bg-cover lg:py-40 min-w-screen 2xl:bg-[#f4f4f2] tails-selected-element">
                     <div className="flex flex-col items-center justify-center mx-auto sm:p-6 xl:p-8 lg:flex-row lg:max-w-6xl lg:p-0">
                         <div className="container relative z-20 flex flex-col w-full px-5 pb-1 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:pr-0 md:pr-6 md:pl-0 lg:pl-5 xl:pr-10 sm:items-center lg:items-start lg:mb-0">
                             <h1 className="relative z-20 text-5xl font-extrabold leading-none text-blueGray-800 xl:text-6xl sm:text-center lg:text-left" data-primary="purple-500">
@@ -39,7 +39,7 @@ const Arquifoam = () => {
 
                         </div>
                         <div className="relative w-full px-5 rounded-lg cursor-pointer lg:w-1/2 group xl:px-0">
-                            <div className="absolute top-0 left-0 w-11/12 -mt-20 opacity-50">
+                            <div className="absolute top-36 left-0 w-11/12 -mt-20 opacity-50">
                                 <svg className="w-full h-full ml-4 text-arquifoam" data-primary="purple-500" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M45,-78C58.3,-70.3,69,-58.2,75.2,-44.4C81.3,-30.7,82.9,-15.3,83.5,0.4C84.2,16,83.8,32.1,76.5,43.9C69.2,55.7,55.1,63.3,41.2,69.4C27.3,75.4,13.6,80,-0.7,81.2C-15.1,82.5,-30.1,80.3,-41.2,72.6C-52.2,64.9,-59.2,51.6,-67.1,38.5C-75.1,25.5,-83.9,12.8,-83.8,0C-83.8,-12.7,-74.9,-25.4,-65.8,-36.4C-56.7,-47.4,-47.4,-56.7,-36.4,-65.7C-25.4,-74.7,-12.7,-83.5,1.6,-86.2C15.9,-89,31.8,-85.7,45,-78Z" transform="translate(100 100)" className=""></path></svg>
                             </div>
                             <Model />
@@ -47,7 +47,7 @@ const Arquifoam = () => {
                     </div>
                 </section>
                 <section className="py-12 md:py-20">
-                    <div className="w-[70vw] px-4 mx-auto">
+                    <div className="w-[85vw] px-4 mx-auto">
                         <div className="flex flex-wrap -mx-3">
                             <div className="w-full lg:w-1/2 flex flex-wrap">
                                 <div className="relative w-full">

@@ -16,7 +16,7 @@ const Slider1 = () => {
                     },
                 }}
                 slidesPerView={1}
-                spaceBetween={30}
+                spaceBetween={10}
                 navigation={{
                     prevEl: ".custom_prev",
                     nextEl: ".custom_next"
@@ -30,14 +30,9 @@ const Slider1 = () => {
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                                         <Link href="/services" legacyBehavior>
-                                            <a>Exhibidores<br /> de Mesa</a>
+                                            <a>Exhibidores de Mesa</a>
                                         </Link>
                                     </h1>
-                                </div>
-                                <div>
-                                    <Link href="/services" legacyBehavior>
-                                        <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">View Details</a>
-                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -51,14 +46,9 @@ const Slider1 = () => {
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                                         <Link href="/services" legacyBehavior>
-                                            <a>Exhibidores<br /> de Pie</a>
+                                            <a>Exhibidores de Pie</a>
                                         </Link>
                                     </h1>
-                                </div>
-                                <div>
-                                    <Link href="/services" legacyBehavior>
-                                        <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">View Details</a>
-                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -72,14 +62,9 @@ const Slider1 = () => {
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                                         <Link href="/services" legacyBehavior>
-                                            <a>Exhibidores<br /> Colgantes</a>
+                                            <a>Exhibidores Colgantes</a>
                                         </Link>
                                     </h1>
-                                </div>
-                                <div>
-                                    <Link href="/services" legacyBehavior>
-                                        <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">View Details</a>
-                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -93,14 +78,9 @@ const Slider1 = () => {
                                 <div>
                                     <h1 className="mt-5 text-xl font-semibold group-hover:text-blue-500">
                                         <Link href="/services" legacyBehavior>
-                                            <a>Botaderos<br/>"Dump Bins"</a>
+                                            <a>Botaderos "Dump Bins"</a>
                                         </Link>
                                     </h1>
-                                </div>
-                                <div>
-                                    <Link href="/services" legacyBehavior>
-                                        <a className="tracking-wide hover-up-2 mr-2 inline-block px-4 py-3 text-xs text-blue-500 font-semibold leading-none border border-blue-200 hover:border-blue-500 hover:text-white hover:bg-blue-500 rounded">View Details</a>
-                                    </Link>
                                 </div>
                             </div>
                         </div>
