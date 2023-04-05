@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
 /*tailwindcss utility classes*/
 /*! tailwindcss v2.2.17 | MIT License | https://tailwindcss.com*/
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -1199,6 +1203,34 @@ video {
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(255, 255, 255, var(--tw-bg-opacity)) !important;
 }
+.bg-gpd-blue{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(19, 29, 40, var(--tw-bg-opacity)) !important;
+}
+.bg-gpd-orange{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(236, 143, 82, var(--tw-bg-opacity)) !important;
+}
+.bg-gpd-orange-dark{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(212, 128, 76, var(--tw-bg-opacity)) !important;
+}
+.bg-gpd-red{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(189, 36, 43, var(--tw-bg-opacity)) !important;
+}
+.bg-gpd-turquoise{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(121, 200, 204, var(--tw-bg-opacity)) !important;
+}
+.bg-gpd-dark-turquoise{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(50, 137, 149, var(--tw-bg-opacity)) !important;
+}
+.bg-arquifoam{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(0, 157, 169, var(--tw-bg-opacity)) !important;
+}
 .bg-blueGray-800{
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(30, 41, 59, var(--tw-bg-opacity)) !important;
@@ -1214,6 +1246,10 @@ video {
 .bg-blueGray-100{
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(241, 245, 249, var(--tw-bg-opacity)) !important;
+}
+.bg-blueGray-400{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(	220, 220, 218, var(--tw-bg-opacity)) !important;
 }
 .bg-blue-200{
 	--tw-bg-opacity: 1 !important;
@@ -1242,6 +1278,10 @@ video {
 .bg-blueGray-200{
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(226, 232, 240, var(--tw-bg-opacity)) !important;
+}
+.bg-gray-light{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(244, 244, 242, var(--tw-bg-opacity)) !important;
 }
 .bg-cover{
 	background-size: cover !important;
@@ -1526,6 +1566,18 @@ video {
 .text-body{
 	--tw-text-opacity: 1 !important;
 	color: rgba(30, 41, 59, var(--tw-text-opacity)) !important;
+}
+.text-gpd-blue{
+	--tw-text-opacity: 1 !important;
+	color: rgba(8, 22, 35, var(--tw-text-opacity)) !important;
+}
+.text-gpd-turquoise{
+	--tw-text-opacity: 1 !important;
+	color: rgba(121, 200, 204, var(--tw-text-opacity)) !important;
+}
+.text-arquifoam{
+	--tw-text-opacity: 1 !important;
+	color: rgba(0, 157, 169, var(--tw-text-opacity)) !important;
 }
 .text-blueGray-600{
 	--tw-text-opacity: 1 !important;
@@ -2528,3 +2580,64 @@ li.menu-item-has-children.active .menu-expand {
     width: 480px;
   }
 }
+
+.orb {
+	width: 50px;
+	height: 50px;
+	background: #999;
+	border-radius: 50px;
+	display: inline-block;
+	margin: 0 24.7px;
+	float: left;
+	transition: all .2s ease-out;
+  }
+  
+  .orb:hover {
+	transform: scale(1.2);
+	opacity: .5;
+	cursor: pointer;
+  }
+  
+  .red {background:red;}
+  .yellow {background:yellow;}
+  .blue {background:blue;}
+  .orange {background:orange;}
+  .purple {background:purple;}
+  .green {background:green;}
+  
+  .marquee {
+	height: 200px;
+	width: 800px;
+	border: 2px solid #eee;
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+	margin: 200px auto;
+  }
+  
+  .marquee--inner {
+	display: block;
+	width: 200%;
+	margin: 70px 0;
+	position: absolute;
+	animation: marquee 20s linear infinite;
+  }
+  
+  .marquee--inner:hover {
+	animation-play-state: paused;
+  }
+  
+  /*.half {
+	float: left;
+	width: 10%;
+  }*/
+  
+  /* span {
+	float: left;
+	width: 50%;
+  } */
+  
+  @keyframes marquee {
+	0% { left: 0; }
+	100% { left: -100%; }
+  }
