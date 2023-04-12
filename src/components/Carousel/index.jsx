@@ -1,58 +1,8 @@
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
-
-// const images = [
-//   '/Loreal_logo.png',
-//   '/logo_claro.png',
-//   '/badillo_logo.png',
-//   '/Walmart_logo.png',
-//   '/de_la_cruz_logo.png',
-// ];
 
 export default function Carousel() {
-    //   const [currentIndex, setCurrentIndex] = useState(0);
-
-    //   useEffect(() => {
-    //     const intervalId = setInterval(() => {
-    //       setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1);
-    //     }, 3000);
-
-    //     return () => clearInterval(intervalId);
-    //   }, [currentIndex]);
 
     return (
-        // <div className="carousel pt-20">
-        //   {images.map((image, index) => (
-        //     <div
-        //       key={index}
-        //       className={`carousel__item ${
-        //         index === currentIndex ? 'carousel__item--active' : ''
-        //       }`}
-        //     >
-        //       <Image
-        //         src={image}
-        //         alt={`Image ${index + 1}`}
-        //         width={300}
-        //         height={200}
-        //       />
-        //     </div>
-        //   ))}
-        //   {images.map((image, index) => (
-        //     <div
-        //       key={index + images.length}
-        //       className={`carousel__item ${
-        //         (index + images.length) === currentIndex ? 'carousel__item--active' : ''
-        //       }`}
-        //     >
-        //       <Image
-        //         src={image}
-        //         alt={`Image ${index + 1}`}
-        //         width={300}
-        //         height={200}
-        //       />
-        //     </div>
-        //   ))}
-        // </div>
 
         <div class="marquee">
             <div class="marquee--inner">

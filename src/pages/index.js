@@ -22,7 +22,7 @@ function Home() {
                     <div className="container px-4 mx-auto">
                         <div className="flex flex-wrap justify-between ">
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                <div className="flex justify-center items-center bg-blueGray-400 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
+                                <div className="flex justify-center items-center bg-blueGray-400 shadow-lg shadow-cyan-500/50 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
                                     <img className="h-12 w-auto wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/handshake-skin-4-svgrepo-com.svg" alt="Monst" />
                                 </div>
                                 <div className="sm:py-2 ml-2 sm:ml-6">
@@ -34,7 +34,7 @@ function Home() {
                                 </div>
                             </div>
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".4s">
-                                <div className="flex justify-center items-center bg-blueGray-400 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
+                                <div className="flex justify-center items-center bg-blueGray-400 shadow-lg shadow-cyan-500/50 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
                                     <img className="h-12 w-auto wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/map-vector.svg" alt="Map" />
                                 </div>
                                 <div className="sm:py-2 ml-2 sm:ml-6">
@@ -46,7 +46,7 @@ function Home() {
                                 </div>
                             </div>
                             <div className="hover-up-5 flex w-1/2 lg:w-auto py-4 wow animate__animated animate__fadeIn" data-wow-delay=".6s">
-                                <div className="flex justify-center items-center bg-blueGray-400 text-blue-500 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
+                                <div className="flex justify-center items-center bg-blueGray-400 shadow-lg shadow-cyan-500/50 rounded-xl h-12 w-12 sm:h-20 sm:w-20">
                                 <img className="h-12 w-auto wow animate__animated animate__fadeIn" src="/assets/imgs/placeholders/customer.svg" alt="Happy Customer" />
                                 </div>
                                 <div className="sm:py-2 ml-2 sm:ml-6">
