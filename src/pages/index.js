@@ -2,6 +2,7 @@ import CounterUp from "../components/elements/Counterup"
 import TextEffect from "../components/elements/TextEffect"
 import Layout from "../components/layout/Layout";
 import Slider1 from "../components/slider/Slider1";
+import Carousel from "../components/Carousel";
 // import { useState, useEffect } from "react";
 
 function Home() {
@@ -76,7 +77,10 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="bg-gray-light pt-20 h-[80vh] " id="key-features">
+                <section className="bg-gray-light">
+                    <Carousel />
+                </section>
+                <section className="bg-gray-light h-[80vh] " id="key-features">
                     <div className="flex flex-wrap h-[70vh] lg:flex-nowrap">
                         <div className=" w-6/12 m-auto wow animate__animated animate__fadeIn rounded-3xl" data-wow-delay=".5s">
                             <div className=" w-8/12 mx-auto">
