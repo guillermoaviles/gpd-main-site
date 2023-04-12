@@ -22,7 +22,7 @@ const Footer = () => {
                     <div className="flex flex-col lg:flex-row items-center lg:justify-between">
                         <p className="text-sm text-blueGray-400">
                             &copy; 1995. Graphic Printing &amp; Design Co. Diseñado por{" "}
-                            <a className="text-gpd-turquoise" href="https://guillermoaviles.vercel.app/" target="_blank">
+                            <a className="text-purple" href="https://guillermoaviles.vercel.app/" target="_blank">
                                 Guillermo J. Avilés
                             </a>
                         </p>
