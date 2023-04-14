@@ -9,7 +9,7 @@ const Servicios = () => {
             <Layout>
                 <section className="z-0 h-[100vh] bg-gray-light w-full bg-cover bg-top -mt-32">
                     <div className="relative">
-                        <img className="w-full" src="/servicios.png" alt="Servicios Hero" />
+                        <img className="w-full" src="/Servicios.png" alt="Servicios Hero" />
                         <div className="absolute inset-y-0 top-0 left-0 h-full w-1/2">
                             <div className='h-8/12 w-8/12 mt-[30vh] mx-auto'>
                                 <h2 className="mb-4 text-3xl lg:text-4xl font-bold font-heading wow animate__animated animate__fadeIn">
