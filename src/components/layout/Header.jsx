@@ -28,7 +28,7 @@ const Header = ({ handleHidden }) => {
                                     />
                                 </a>
                             </Link>
-                            <ul className="hidden bg-gray-light rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-11 px-6">
+                            <ul className="hidden bg-gray-light rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-16 px-6">
                                 <li className="group relative pb-4 pt-4 ">
                                     <Link href="/" legacyBehavior>
                                         <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
@@ -72,7 +72,8 @@ const Header = ({ handleHidden }) => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/blog-single-2" legacyBehavior>
+                                            {/* <Link href="/blog-single-2" legacyBehavior> */}
+                                            <Link href="/" legacyBehavior>
                                                 <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
                                                     Trabajos Especiales
                                                 </a>
@@ -80,7 +81,7 @@ const Header = ({ handleHidden }) => {
                                         </li>
                                     </ul>
                                 </li>
-                                <li className="group relative pt-4 pb-4 has-child">
+                                {/* <li className="group relative pt-4 pb-4 has-child">
                                     <Link href="#" legacyBehavior>
                                         <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                                             Compañía
@@ -130,14 +131,14 @@ const Header = ({ handleHidden }) => {
                                             </Link>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> */}
                                 <li className="group relative pt-4 pb-4 has-child">
                                     <Link href="#" legacyBehavior>
                                         <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                                             Redes
                                         </a>
                                     </Link>
-                                    <ul className="drop-down-menu min-w-200">
+                                    {/* <ul className="drop-down-menu min-w-200">
                                         <li>
                                             <Link href="/blog" legacyBehavior>
                                                 <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
@@ -166,10 +167,11 @@ const Header = ({ handleHidden }) => {
                                                 </a>
                                             </Link>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li className="pt-4 pb-4">
-                                    <Link href="/contact" legacyBehavior>
+                                    {/* <Link href="/contact" legacyBehavior> */}
+                                    <Link href="/" legacyBehavior>
                                         <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                                             Contáctanos
                                         </a>
@@ -198,7 +200,7 @@ const Header = ({ handleHidden }) => {
             <header className="bg-transparent sticky-bar mt-4">
                 <div className="w-[90vw] mx-auto bg-transparent">
                     <nav className="bg-transparent flex justify-end items-center py-3">
-                        <ul className="hidden rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-11 px-6">
+                        <ul className="hidden rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-16 px-6">
                         {/* <ul className="hidden bg-gpd-blue rounded-full lg:flex lg:items-center lg:w-auto lg:space-x-8 px-6"> */}
                             <li className="group relative pb-4 pt-4 ">
                                 <Link href="/" legacyBehavior>
@@ -243,7 +245,7 @@ const Header = ({ handleHidden }) => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-single-2" legacyBehavior>
+                                        <Link href="/" legacyBehavior>
                                             <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
                                                 Trabajos Especiales
                                             </a>
@@ -251,13 +253,13 @@ const Header = ({ handleHidden }) => {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="group relative pt-4 pb-4">
+                            {/* <li className="group relative pt-4 pb-4">
                                 <Link href="#" legacyBehavior>
                                     <a className="text-sm font-semibold text-white hover:text-blueGray-500">
                                         Compañía
                                     </a>
                                 </Link>
-                            </li>
+                            </li> */}
                             <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="#" legacyBehavior>
                                     <a className="text-sm font-semibold text-white hover:text-blueGray-500">
@@ -266,14 +268,16 @@ const Header = ({ handleHidden }) => {
                                 </Link>
                                 <ul className="drop-down-menu min-w-200">
                                     <li>
-                                        <Link href="/blog" legacyBehavior>
+                                        {/* <Link href="/blog" legacyBehavior> */}
+                                        <Link href="/" legacyBehavior>
                                             <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
                                                 Facebook
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-2" legacyBehavior>
+                                        {/* <Link href="/blog-2" legacyBehavior> */}
+                                        <Link href="/" legacyBehavior>
                                             <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
                                                 Instagram
                                             </a>
@@ -282,7 +286,8 @@ const Header = ({ handleHidden }) => {
                                 </ul>
                             </li>
                             <li className="pt-4 pb-4">
-                                <Link href="/contact" legacyBehavior>
+                                {/* <Link href="/contact" legacyBehavior> */}
+                                <Link href="/" legacyBehavior>
                                     <a className="text-sm font-semibold text-white hover:text-blueGray-500">
                                         Contáctanos
                                     </a>
