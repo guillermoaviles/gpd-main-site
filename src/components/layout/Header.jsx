@@ -51,23 +51,23 @@ const Header = ({ handleHidden }) => {
                                     </Link>
                                     <ul className="drop-down-menu min-w-200">
                                         <li>
-                                            <Link href="/blog" legacyBehavior>
+                                            <Link href="/impesion-general" legacyBehavior>
                                                 <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
-                                                    Impresión de Prensa
+                                                    Impresión General
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/blog-2" legacyBehavior>
+                                            <Link href="/formato-grande" legacyBehavior>
                                                 <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
-                                                    Impresión Digital
+                                                    Formato Grande
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/arquifoam" legacyBehavior>
+                                            <Link href="/punto-de-venta" legacyBehavior>
                                                 <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
-                                                    Productos en Arquifoam
+                                                    Punto de Venta
                                                 </a>
                                             </Link>
                                         </li>
@@ -215,30 +215,30 @@ const Header = ({ handleHidden }) => {
                                 </Link>
                             </li>
                             <li className="group relative pt-4 pb-4 has-child">
-                                <Link href="/services" legacyBehavior>
+                                <Link href="/servicios" legacyBehavior>
                                     <a className="text-sm font-semibold text-white hover:text-blueGray-500">
                                         Servicios
                                     </a>
                                 </Link>
                                 <ul className="drop-down-menu min-w-200">
                                     <li>
-                                        <Link href="/blog" legacyBehavior>
+                                        <Link href="/impresion-general" legacyBehavior>
                                             <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
-                                                Impresión de Prensa
+                                                Impresión General
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog-2" legacyBehavior>
+                                        <Link href="/formato-grande" legacyBehavior>
                                             <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
-                                                Impresión Digital
+                                                Formato Grande
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/arquifoam" legacyBehavior>
+                                        <Link href="/punto-de-venta" legacyBehavior>
                                             <a className="menu-sub-item text-sm text-blueGray-600 hover:text-blueGray-500">
-                                                Productos en Arquifoam
+                                                Punto de Venta
                                             </a>
                                         </Link>
                                     </li>
