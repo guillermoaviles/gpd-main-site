@@ -19,6 +19,7 @@ function MyApp({ Component, pageProps }) {
         <>
             <Head>
                 <title>Graphic Printing &amp; Design Co</title>
+                <link href="https://unpkg.com/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet"/>
             </Head>
 
             {!loading ? (

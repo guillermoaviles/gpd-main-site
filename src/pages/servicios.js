@@ -19,7 +19,9 @@ const Servicios = () => {
                                     <strong className="">Una vez cruza nuestras puertas</strong>, nada es imposible. Ven y descubre cómo podemos ayudarte hacer tu idea realidad a través de nuestro servicio de primera calidad y amplia variedad de productos.
                                 </p>
                                 <div className="relative flex mt-4">
-                                    <a href="#_" className="flex items-center self-start justify-center px-5 py-2 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-blue border border-transparent rounded-md shadow lg:py-4 hover:bg-purple-600 focus:outline-none focus:border-purple-600 focus:shadow-outline-purple md:text-lg xl:text-xl md:px-5 xl:px-10 2xl:shadow-lg" data-primary="purple-500" data-rounded="rounded-full">Ver más</a>
+                                    <a href="#_" className="flex items-center self-start justify-center px-5 py-2 mt-5 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-blue border border-transparent rounded-md shadow lg:py-4 hover:bg-purple-600 focus:outline-none focus:border-purple-600 focus:shadow-outline-purple md:text-lg xl:text-xl md:px-5 xl:px-10 2xl:shadow-lg" data-primary="purple-500" data-rounded="rounded-full">
+                                        Ver más
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -29,7 +31,7 @@ const Servicios = () => {
                     <div className="w-10/12 h-[80vh] mx-auto">
                         <div className="text-center mb-24">
                             <h2 className="max-w-lg mb-4 text-5xl font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".2s">
-                                <span>Nuestras Soluciones</span>
+                                <span>Nuestros Servicios</span>
                             </h2>
                         </div>
                         <div className="flex flex-wrap -mx-3">
@@ -37,7 +39,7 @@ const Servicios = () => {
                                 <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
                                     <img className="object-cover h-full brightness-50 rounded" src="/assets/imgs/illustrations/revistas.jpg" alt="Revistas" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
-                                        <h3 className="mb-2 text-4xl font-bold text-blueGray-200 font-heading">Impresión de Prensa</h3>
+                                        <h3 className="mb-2 text-4xl font-bold text-blueGray-200 font-heading">Impresión General</h3>
                                         <div className="flex flex-col items-center mt-8 mb-8">
                                             <ul className="text-blueGray-200">
                                                 <li className="flex mb-3">
@@ -90,8 +92,8 @@ const Servicios = () => {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div>
-                                            <a className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-s text-white text-center font-semibold leading-none bg-gpd-orange hover:bg-blue-500 rounded-full" href="#">
+                                        <div className='absolute block -ml-4 bottom-8 w-full'>
+                                            <a className="block sm:inline-block mt-auto py-4 px-8 mb-4 sm:mb-0 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-md shadow hover:bg-blue-500" href="impresion-general">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
@@ -102,8 +104,8 @@ const Servicios = () => {
                                 <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
                                     <img className="object-cover h-full brightness-50 rounded" src="/assets/imgs/illustrations/epson.jpg" alt="Monst" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
-                                        <h3 className="mb-2 text-4xl px-1 font-bold text-blueGray-200 font-heading">Impresión Digital</h3>
-                                        <div className="flex flex-col items-center mt-8 mb-8">
+                                        <h3 className="mb-2 text-4xl px-1 font-bold text-blueGray-200 font-heading">Formato Grande</h3>
+                                        <div className="flex flex-col items-center md:mt-20 sm:mt:8 mb-8 ">
                                             <ul className="text-blueGray-200">
                                                 <li className="flex mb-3">
                                                     <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -155,8 +157,8 @@ const Servicios = () => {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div>
-                                            <a className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-s text-white text-center font-semibold leading-none bg-gpd-orange hover:bg-blue-500 rounded-full" href="#">
+                                        <div className='absolute block -ml-4 bottom-8 w-full'>
+                                        <a className="block sm:inline-block mt-auto py-4 px-8 mb-4 sm:mb-0 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-md shadow hover:bg-blue-500" href="/formato-grande">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
@@ -167,7 +169,7 @@ const Servicios = () => {
                                 <div className="relative h-full hover-up-5 shadow-xl wow animate__animated animate__fadeIn" data-wow-delay=".2s">
                                     <img className="object-cover h-full brightness-50 rounded" src="/assets/imgs/illustrations/arquifoam.jpg" alt="Monst" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
-                                        <h3 className="mb-2 text-4xl font-bold text-blueGray-200 font-heading">Productos de Arquifoam</h3>
+                                        <h3 className="mb-2 text-4xl font-bold text-blueGray-200 font-heading">Punto de Venta</h3>
                                         <div className="flex flex-col items-center mt-8 mb-8">
                                             <ul className="text-blueGray-200">
                                                 <li className="flex mb-3">
@@ -220,8 +222,8 @@ const Servicios = () => {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div>
-                                            <a className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-s text-white text-center font-semibold leading-none bg-gpd-orange hover:bg-blue-500 rounded-full" href="/arquifoam">
+                                        <div className='absolute block -ml-4 bottom-8 w-full'>
+                                        <a className="block sm:inline-block mt-auto py-4 px-8 mb-4 sm:mb-0 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-md shadow hover:bg-blue-500" href="/punto-de-venta">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
@@ -285,8 +287,8 @@ const Servicios = () => {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div>
-                                            <a className="block sm:inline-block py-4 px-8 mb-4 sm:mb-0 sm:mr-3 text-s text-white text-center font-semibold leading-none bg-gpd-orange hover:bg-blue-500 rounded-full" href="#">
+                                        <div className='absolute block -ml-4 bottom-8 w-full'>
+                                        <a className="block sm:inline-block mt-auto py-4 px-8 mb-4 sm:mb-0 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-md shadow hover:bg-blue-500" href="trabajos-especiales">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
