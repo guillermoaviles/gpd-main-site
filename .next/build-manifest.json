@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/impresion-general": [
+    "/punto-de-venta": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/impresion-general.js"
-    ],
-    "/servicios": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/servicios.js"
+      "static/chunks/pages/punto-de-venta.js"
     ]
   },
   "ampFirstPages": []

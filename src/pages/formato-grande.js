@@ -157,7 +157,7 @@ const FormatoGrande = () => {
                                         </label>
                                     </div> */}
                                     <div className="flex justify-center items-center wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <button className="py-4 px-8 text-s text-white font-semibold leading-none bg-gpd-turquoise hover:bg-blue-700 rounded-md" type="submit">
+                                        <button className="py-4 px-8 text-s text-white font-semibold leading-none bg-gpd-turquoise hover:bg-blue-500 rounded-md" type="submit">
                                             Enviar
                                         </button>
                                     </div>
