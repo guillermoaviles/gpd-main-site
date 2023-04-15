@@ -171,7 +171,7 @@ const Header = ({ handleHidden }) => {
                                 </li>
                                 <li className="pt-4 pb-4">
                                     {/* <Link href="/contact" legacyBehavior> */}
-                                    <Link href="/" legacyBehavior>
+                                    <Link href="/contactanos" legacyBehavior>
                                         <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                                             Contáctanos
                                         </a>
@@ -287,7 +287,7 @@ const Header = ({ handleHidden }) => {
                             </li>
                             <li className="pt-4 pb-4">
                                 {/* <Link href="/contact" legacyBehavior> */}
-                                <Link href="/" legacyBehavior>
+                                <Link href="/contactanos" legacyBehavior>
                                     <a className="text-sm font-semibold text-white hover:text-blueGray-500">
                                         Contáctanos
                                     </a>

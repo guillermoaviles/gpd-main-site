@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/punto-de-venta": "pages/punto-de-venta.js"
+  "/": "pages/index.js",
+  "/servicios": "pages/servicios.js"
 }

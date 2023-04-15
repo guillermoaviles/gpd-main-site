@@ -1,7 +1,8 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import CounterUp from "../components/elements/Counterup";
-import Model from "../components/model/Model"
+import Model from "../components/model/Model";
+import Contactanos from '../components/Contactanos';
 
 const Servicios = () => {
     return (
@@ -158,7 +159,7 @@ const Servicios = () => {
                                             </ul>
                                         </div>
                                         <div className='absolute block -ml-4 bottom-8 w-full'>
-                                        <a className="block sm:inline-block mt-auto py-4 px-8 mb-4 sm:mb-0 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-md shadow hover:bg-blue-500" href="/formato-grande">
+                                            <a className="block sm:inline-block mt-auto py-4 px-8 mb-4 sm:mb-0 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-md shadow hover:bg-blue-500" href="/formato-grande">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
@@ -170,7 +171,8 @@ const Servicios = () => {
                                     <img className="object-cover h-full brightness-50 rounded" src="/assets/imgs/illustrations/arquifoam.jpg" alt="Monst" />
                                     <div className="absolute inset-y-0 top-0 left-0 h-full pt-16 pb-8 px-4 text-center">
                                         <h3 className="mb-2 text-4xl font-bold text-blueGray-200 font-heading">Punto de Venta</h3>
-                                        <div className="flex flex-col items-center mt-8 mb-8">
+                                        {/* <div className="flex flex-col items-center mt-8 mb-8"> */}
+                                        <div className="flex flex-col items-center md:mt-20 sm:mt:8 mb-8 ">
                                             <ul className="text-blueGray-200">
                                                 <li className="flex mb-3">
                                                     <svg className="w-6 h-6 mr-2 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -223,7 +225,7 @@ const Servicios = () => {
                                             </ul>
                                         </div>
                                         <div className='absolute block -ml-4 bottom-8 w-full'>
-                                        <a className="block sm:inline-block mt-auto py-4 px-8 mb-4 sm:mb-0 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-md shadow hover:bg-blue-500" href="/punto-de-venta">
+                                            <a className="block sm:inline-block mt-auto py-4 px-8 mb-4 sm:mb-0 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-md shadow hover:bg-blue-500" href="/punto-de-venta">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
@@ -288,7 +290,7 @@ const Servicios = () => {
                                             </ul>
                                         </div>
                                         <div className='absolute block -ml-4 bottom-8 w-full'>
-                                        <a className="block sm:inline-block mt-auto py-4 px-8 mb-4 sm:mb-0 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-md shadow hover:bg-blue-500" href="trabajos-especiales">
+                                            <a className="block sm:inline-block mt-auto py-4 px-8 mb-4 sm:mb-0 text-base font-medium leading-tight text-white transition duration-150 ease-in-out bg-gpd-orange border border-transparent rounded-md shadow hover:bg-blue-500" href="trabajos-especiales">
                                                 ¡Ver mas!
                                             </a>
                                         </div>
@@ -329,59 +331,7 @@ const Servicios = () => {
                         </div>
                     </div>
                 </section> */}
-                <section className="">
-                    <div className="container mt-20">
-                        <div className="max-w-2xl mx-auto text-center">
-                            <div className="max-w-md mb-8 mx-auto">
-                                <span className="text-xs py-1 px-3 text-gpd-orange font-semibold bg-gray-light rounded-xl wow animate__animated animate__fadeInDown" data-wow-delay=".9s">
-                                    Contáctanos
-                                </span>
-                                <h2 className="mt-2 text-4xl text-gpd-blue font-bold font-heading wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                    ¡Nos <span className="text-gpd-turquoise">encantaría</span> ayudarte!
-                                </h2>
-                            </div>
-                            <div>
-                                <form>
-                                    <div className="mb-4 text-sm wow animate__animated animate__fadeIn" data-wow-delay=".5s">
-                                        <span className="mr-4 font-semibold">Departamento:</span>
-                                        <label className="mr-4">
-                                            <input className="mr-1" type="radio" name="department" value="1" />
-                                            {/* <input className="mr-1" type="radio" name="department" value="1" checked="" /> */}
-                                            <span>Servicio</span>
-                                        </label>
-                                        <label>
-                                            <input className="mr-1" type="radio" name="department" value="2" />
-                                            <span>Ventas</span>
-                                        </label>
-                                    </div>
-                                    <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="text" placeholder="Asunto:" />
-                                    </div>
-                                    <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="text" placeholder="Nombre:" />
-                                    </div>
-                                    <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <input className="w-full p-4 text-xs font-semibold leading-none bg-gray-light rounded outline-none" type="email" placeholder="Correo electrónico:" />
-                                    </div>
-                                    <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <textarea className="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-gray-light rounded outline-none" placeholder="Mensaje..."></textarea>
-                                    </div>
-                                    {/* <div className="mb-4 wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <label className="flex px-2 bg-blueGray-50 rounded">
-                                            <input className="hidden" type="file" name="Choose file"/>
-                                            <span className="my-1 ml-auto px-4 py-3 text-xs text-white font-semibold leading-none bg-blueGray-500 hover:bg-blueGray-600 rounded cursor-pointer"> Importar</span>
-                                        </label>
-                                    </div> */}
-                                    <div className="flex justify-center items-center wow animate__animated animate__fadeIn" data-wow-delay=".3s">
-                                        <button className="py-4 px-8 text-s text-white font-semibold leading-none bg-gpd-turquoise hover:bg-blue-700 rounded-full" type="submit">
-                                            Enviar
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <Contactanos />
             </Layout>
         </>
     );
